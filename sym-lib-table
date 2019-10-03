@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name vnld5090)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/vnld5090.lib)(options "")(descr "ST VNLD5090 - Low side drivers"))
+  (lib (name infineon_psu)(type Legacy)(uri ${KIPRJMOD}/infineon_psu.lib)(options "")(descr ""))
+  (lib (name tle9201_2)(type Legacy)(uri ${KIPRJMOD}/tle9201_2.lib)(options "")(descr ""))
+  (lib (name vnq7140aj)(type Legacy)(uri ${KIPRJMOD}/vnq7140aj.lib)(options "")(descr ""))
+  (lib (name tle9471)(type Legacy)(uri ${KIPRJMOD}/tle9471.lib)(options "")(descr ""))
+)
