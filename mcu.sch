@@ -650,9 +650,9 @@ Text HLabel 1900 8325 0    50   Input ~ 0
 DIGITAL2
 Text HLabel 1900 8425 0    50   Input ~ 0
 DIGITAL3
-Text HLabel 1900 8525 0    50   Input ~ 0
-DIGITAL4
 Text HLabel 1900 8625 0    50   Input ~ 0
+DIGITAL4
+Text HLabel 1900 8525 0    50   Input ~ 0
 DIGITAL5
 Text HLabel 1900 8725 0    50   Input ~ 0
 DIGITAL6
