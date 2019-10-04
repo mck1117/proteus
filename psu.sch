@@ -463,10 +463,6 @@ Wire Wire Line
 	6000 1900 6050 1900
 Text HLabel 6300 2400 2    50   Output ~ 0
 RSTN
-Text HLabel 6050 2500 2    50   Output ~ 0
-INTN
-Wire Wire Line
-	6050 2500 6000 2500
 Wire Wire Line
 	6000 2400 6300 2400
 Text HLabel 6050 2700 2    50   Input ~ 0
@@ -675,8 +671,6 @@ Wire Wire Line
 	2625 3850 2625 3900
 Wire Wire Line
 	2625 4200 2625 4275
-Text Notes 6900 2750 0    50   ~ 0
-todo: INTN pin
 $Comp
 L tle9471:TLE9471-3ES U1001
 U 1 1 5D95953D
@@ -898,5 +892,33 @@ F 2 "" H 4275 1150 50  0001 C CNN
 F 3 "~" H 4275 1150 50  0001 C CNN
 	1    4275 1150
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R905
+U 1 1 5D991775
+P 6725 2600
+F 0 "R905" V 6518 2600 50  0000 C CNN
+F 1 "10k" V 6609 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6655 2600 50  0001 C CNN
+F 3 "~" H 6725 2600 50  0001 C CNN
+	1    6725 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6575 2600 6300 2600
+Wire Wire Line
+	6300 2600 6300 2500
+Wire Wire Line
+	6000 2500 6300 2500
+$Comp
+L power:+3.3V #PWR0228
+U 1 1 5D994503
+P 6875 2600
+F 0 "#PWR0228" H 6875 2450 50  0001 C CNN
+F 1 "+3.3V" H 6890 2773 50  0000 C CNN
+F 2 "" H 6875 2600 50  0001 C CNN
+F 3 "" H 6875 2600 50  0001 C CNN
+	1    6875 2600
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

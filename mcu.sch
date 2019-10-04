@@ -28,21 +28,21 @@ Text HLabel 1900 5125 0    50   Output ~ 0
 LS6
 Text HLabel 1900 5225 0    50   Output ~ 0
 LS7
-Text HLabel 4300 4225 2    50   Output ~ 0
-LS9
 Text HLabel 4300 4325 2    50   Output ~ 0
-LS10
+LS9
 Text HLabel 4300 4425 2    50   Output ~ 0
-LS11
-Text HLabel 4300 4625 2    50   Output ~ 0
-LS13
+LS10
 Text HLabel 4300 4525 2    50   Output ~ 0
-LS12
+LS11
 Text HLabel 4300 4725 2    50   Output ~ 0
-LS14
+LS13
+Text HLabel 4300 4625 2    50   Output ~ 0
+LS12
 Text HLabel 1900 7225 0    50   Output ~ 0
-LS15
+LS14
 Text HLabel 1900 7325 0    50   Output ~ 0
+LS15
+Text HLabel 1900 7425 0    50   Output ~ 0
 LS16
 Text HLabel 4300 5525 2    50   Input ~ 0
 AV1
@@ -535,7 +535,6 @@ Wire Wire Line
 	4650 3525 4300 3525
 Wire Wire Line
 	4650 3425 4300 3425
-NoConn ~ 6600 1325
 Text Label 6975 1525 2    50   ~ 0
 nRESET
 Wire Wire Line
@@ -1201,7 +1200,7 @@ IGN11
 Text HLabel 1900 4025 0    50   Output ~ 0
 IGN12
 NoConn ~ 4300 3125
-Text HLabel 4300 4125 2    50   Output ~ 0
+Text HLabel 4300 4225 2    50   Output ~ 0
 LS8
 $Comp
 L Connector_Generic:Conn_01x05 J1503
@@ -1285,7 +1284,6 @@ NoConn ~ 1900 6725
 NoConn ~ 1900 6825
 NoConn ~ 1900 6925
 NoConn ~ 1900 7025
-NoConn ~ 1900 7425
 NoConn ~ 1900 7525
 NoConn ~ 1900 7625
 NoConn ~ 1900 7725
@@ -1414,7 +1412,7 @@ U 1 1 5D9713EF
 P 8100 2450
 F 0 "R1508" V 7893 2450 50  0000 C CNN
 F 1 "R" V 7984 2450 50  0000 C CNN
-F 2 "" V 8030 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 2450 50  0001 C CNN
 F 3 "~" H 8100 2450 50  0001 C CNN
 	1    8100 2450
 	0    1    1    0   
@@ -1430,4 +1428,12 @@ F 3 "" H 8250 2450 50  0001 C CNN
 	1    8250 2450
 	0    -1   -1   0   
 $EndComp
+Text Label 6975 1325 2    50   ~ 0
+SWO
+Text Label 4625 4125 2    50   ~ 0
+SWO
+Wire Wire Line
+	4300 4125 4625 4125
+Wire Wire Line
+	6600 1325 6975 1325
 $EndSCHEMATC
