@@ -48,4 +48,4 @@ A high-featured board compatible with rusEfi firmware.
 
 ## Extensibility
 
-- 10-pin internal header for knock expansion board
+- 10-pin internal header for knock expansion board.  We aren't confident in any one knock sensing design yet, so it's most useful to be able to swap it out without replacing the whole ECU.
