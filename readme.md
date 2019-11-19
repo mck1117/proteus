@@ -21,10 +21,21 @@ A high-featured board compatible with rusEfi firmware.
 
 # Hardware Features
 
+## Connectors
+TE Connectivity AMPSEAL connectors (keying not yet determined).
+
+- 2x 35 pin connectors
+    - Board: TE 1-776231-1
+    - Plug: TE 776164-1
+- 2x 23 pin connector
+    - Board: TE 776228-1
+    - Plug: TE 770680-1
+
 ## Connectivity
 
 - 1 mbit/s CAN bus
 - USB 2.0 full speed (12 mbit/s), on-board or wired to connector for sealed applications
+- [10-pin, 1.27mm Cortex debug header](http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf)
 
 ## Outputs
 - 16x 4A low-side drivers
