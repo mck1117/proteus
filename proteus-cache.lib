@@ -76,23 +76,6 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x01_Female
-#
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_01x05
 #
 DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
@@ -436,6 +419,30 @@ P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky_Small
+#
+DEF Device_D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Device_D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -868,6 +875,27 @@ X ~ 6 0 -100 100 R 50 50 1 1 N N
 X EN 7 -400 0 100 R 50 50 1 1 I
 X IN 8 -400 100 100 R 50 50 1 1 W
 X GND 9 100 -450 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# infineon_psu_TLS205
+#
+DEF infineon_psu_TLS205 U 0 40 Y Y 1 F N
+F0 "U" -250 -350 50 H V C CNN
+F1 "infineon_psu_TLS205" -100 300 50 H V C CNN
+F2 "" -50 -100 50 H I C CNN
+F3 "" -50 -100 50 H I C CNN
+DRAW
+S -300 250 300 -300 0 1 0 N
+X OUT 1 400 200 100 L 50 50 1 1 w
+X SENSE 2 400 100 100 L 50 50 1 1 I
+X ~ 3 -200 50 100 R 50 50 1 1 N N
+X BYP 4 400 -250 100 L 50 50 1 1 B
+X EN 5 -400 -250 100 R 50 50 1 1 I
+X GND 6 -50 -400 100 U 50 50 1 1 W
+X ~ 7 -200 -50 100 R 50 50 1 1 N N
+X IN 8 -400 200 100 R 50 50 1 1 W
+X TABGND 9 50 -400 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
