@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name tsdso24)(type KiCad)(uri ${KIPRJMOD}/tsdso24.pretty)(options "")(descr ""))
   (lib (name ampseal)(type KiCad)(uri ${KIPRJMOD}/ampseal.pretty)(options "")(descr ""))
+  (lib (name via)(type KiCad)(uri ${KIPRJMOD}/via.pretty)(options "")(descr ""))
 )
