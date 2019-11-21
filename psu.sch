@@ -983,4 +983,8 @@ Wire Wire Line
 Wire Wire Line
 	6500 1250 6500 1600
 Connection ~ 6500 1250
+Text HLabel 2825 1225 3    50   Output ~ 0
+12v_PROT
+Wire Wire Line
+	2825 1225 2825 1150
 $EndSCHEMATC
