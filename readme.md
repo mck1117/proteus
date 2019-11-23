@@ -21,6 +21,15 @@ A high-featured board compatible with rusEfi firmware.
 
 # Hardware Features
 
+## Microcontroller
+
+- STM32F767ZI
+    - 216 MHz ARM Cortex-M7
+    - 16 KB I/D caches
+    - 2MB flash
+    - 512 KB SRAM
+    - LQFP144 package
+
 ## Connectors
 TE Connectivity AMPSEAL connectors (keying not yet determined).
 
