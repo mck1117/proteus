@@ -25,6 +25,7 @@ F 0 "U1801" H 3150 1500 50  0000 C CNN
 F 1 "MIC4427" H 3200 2200 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3025 1550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 3025 1550 50  0001 C CNN
+F 4 "TC4427E" H 3025 1850 50  0001 C CNN "PN"
 	1    3025 1850
 	1    0    0    -1  
 $EndComp
@@ -39,6 +40,7 @@ F 0 "U1802" H 3150 3000 50  0000 C CNN
 F 1 "MIC4427" H 3200 3700 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3025 3050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 3025 3050 50  0001 C CNN
+F 4 "TC4427E" H 3025 3350 50  0001 C CNN "PN"
 	1    3025 3350
 	1    0    0    -1  
 $EndComp

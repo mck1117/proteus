@@ -27,6 +27,7 @@ F 0 "U1101" H 6800 3642 50  0000 C CNN
 F 1 "MCP6004" H 6800 3551 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 3375 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 3475 50  0001 C CNN
+F 4 " MCP6004T" H 6800 3275 50  0001 C CNN "PN"
 	1    6800 3275
 	1    0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 0 "U1101" H 6800 3067 50  0000 C CNN
 F 1 "MCP6004" H 6800 2976 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 2800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 2900 50  0001 C CNN
+F 4 " MCP6004T" H 6800 2700 50  0001 C CNN "PN"
 	2    6800 2700
 	1    0    0    -1  
 $EndComp
@@ -59,6 +61,7 @@ F 0 "U1101" H 6800 4792 50  0000 C CNN
 F 1 "MCP6004" H 6800 4701 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 4525 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 4625 50  0001 C CNN
+F 4 " MCP6004T" H 6800 4425 50  0001 C CNN "PN"
 	3    6800 4425
 	1    0    0    -1  
 $EndComp
@@ -75,6 +78,7 @@ F 0 "U1101" H 6800 4217 50  0000 C CNN
 F 1 "MCP6004" H 6800 4126 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 3950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 4050 50  0001 C CNN
+F 4 " MCP6004T" H 6800 3850 50  0001 C CNN "PN"
 	4    6800 3850
 	1    0    0    -1  
 $EndComp
@@ -91,6 +95,7 @@ F 0 "U1101" H 1583 1721 50  0000 L CNN
 F 1 "MCP6004" H 1583 1630 50  0000 L CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1575 1775 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1675 1875 50  0001 C CNN
+F 4 " MCP6004T" H 1625 1675 50  0001 C CNN "PN"
 	5    1625 1675
 	1    0    0    -1  
 $EndComp
@@ -488,6 +493,7 @@ F 0 "D1101" H 4425 3248 50  0000 C CNN
 F 1 "BAV70" H 4425 3339 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4425 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4425 3125 50  0001 C CNN
+F 4 "BAS70-5" H 4425 3125 50  0001 C CNN "PN"
 	1    4425 3125
 	-1   0    0    1   
 $EndComp
@@ -512,6 +518,7 @@ F 0 "D1102" H 5250 3248 50  0000 C CNN
 F 1 "BAV70" H 5250 3339 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5250 3125 50  0001 C CNN
+F 4 "BAS70-5" H 5250 3125 50  0001 C CNN "PN"
 	1    5250 3125
 	-1   0    0    1   
 $EndComp
