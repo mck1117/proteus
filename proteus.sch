@@ -461,6 +461,7 @@ F 0 "J102" H 7880 2642 50  0000 L CNN
 F 1 "Conn_01x35" H 7880 2551 50  0000 L CNN
 F 2 "ampseal:ampseal-35" H 7800 2600 50  0001 C CNN
 F 3 "~" H 7800 2600 50  0001 C CNN
+F 4 "776231-1" H 7800 2600 50  0001 C CNN "PN"
 	1    7800 2600
 	1    0    0    -1  
 $EndComp
@@ -472,6 +473,7 @@ F 0 "J103" H 9280 2642 50  0000 L CNN
 F 1 "Conn_01x35" H 9280 2551 50  0000 L CNN
 F 2 "ampseal:ampseal-35" H 9200 2600 50  0001 C CNN
 F 3 "~" H 9200 2600 50  0001 C CNN
+F 4 "776231-2" H 9200 2600 50  0001 C CNN "PN"
 	1    9200 2600
 	1    0    0    -1  
 $EndComp
@@ -982,6 +984,7 @@ F 0 "J101" H 10680 2042 50  0000 L CNN
 F 1 "Conn_01x23" H 10680 1951 50  0000 L CNN
 F 2 "ampseal:ampseal-23" H 10600 2000 50  0001 C CNN
 F 3 "~" H 10600 2000 50  0001 C CNN
+F 4 "776228-1" H 10600 2000 50  0001 C CNN "PN"
 	1    10600 2000
 	1    0    0    -1  
 $EndComp
@@ -1121,4 +1124,6 @@ F 3 "" H 7200 5125 50  0001 C CNN
 	1    7200 5125
 	0    -1   -1   0   
 $EndComp
+Text Notes 9525 4725 0    50   ~ 0
+Connectors\n776228-1\n\n776231-1\n\n776231-2\n\nMating plugs\n770680-1\n\n776164-1\n\n776164-2\n\nTerminals\n770854-1\n\nall of the above cheap from ttiinc.com
 $EndSCHEMATC
