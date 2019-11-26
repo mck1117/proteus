@@ -633,7 +633,7 @@ F 0 "D901" H 4425 3248 50  0000 C CNN
 F 1 "BAV70" H 4425 3339 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4425 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4425 3125 50  0001 C CNN
-F 4 "BAS70-5" H 4425 3125 50  0001 C CNN "PN"
+F 4 "BAS70-05" H 4425 3125 50  0001 C CNN "PN"
 	1    4425 3125
 	-1   0    0    1   
 $EndComp
@@ -658,7 +658,7 @@ F 0 "D902" H 5250 3248 50  0000 C CNN
 F 1 "BAV70" H 5250 3339 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5250 3125 50  0001 C CNN
-F 4 "BAS70-5" H 5250 3125 50  0001 C CNN "PN"
+F 4 "BAS70-05" H 5250 3125 50  0001 C CNN "PN"
 	1    5250 3125
 	-1   0    0    1   
 $EndComp
