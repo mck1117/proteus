@@ -1239,13 +1239,13 @@
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /5DDE8FFD)
-    (fp_text reference J111 (at 0 -2.33) (layer F.SilkS)
+    (fp_text reference J111 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
@@ -1277,13 +1277,13 @@
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /5DDE88BF)
-    (fp_text reference J110 (at 0 -2.33) (layer F.SilkS)
+    (fp_text reference J110 (at 0 2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
@@ -1316,7 +1316,7 @@
     (tags SOD-123)
     (path /5D99E6EE/5DE08E81)
     (attr smd)
-    (fp_text reference D1503 (at 0 2) (layer B.SilkS)
+    (fp_text reference D1503 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value schottky (at 0 -2.1) (layer B.Fab)
@@ -1340,7 +1340,7 @@
     (fp_line (start 0.25 -0.4) (end -0.35 0) (layer B.Fab) (width 0.1))
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.1))
     (fp_line (start -2.25 1) (end -2.25 -1) (layer B.SilkS) (width 0.12))
-    (fp_text user %R (at 0 2) (layer B.Fab)
+    (fp_text user %R (at 0 2) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (pad 2 smd rect (at 1.65 0 180) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask)
