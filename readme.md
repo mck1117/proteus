@@ -64,7 +64,7 @@ TE Connectivity AMPSEAL connectors (keying not yet determined).
 - Full operation from 6-24v supply
 - Limited operation from 4-6v
 - Dual 5v sensor supplies, 150mA each, fully protected
-- ~~Dual protected 12v external sensor supply~~ TODO
+- Dual protected 12v external sensor supply
 
 ## Extensibility
 
