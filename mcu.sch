@@ -803,7 +803,7 @@ F 0 "U1501" H 3100 5250 50  0000 C CNN
 F 1 "STM32F767ZITx" H 3100 5600 50  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 2100 2025 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 3100 5425 50  0001 C CNN
-F 4 "STM32F767VIT6" H 3100 5425 50  0001 C CNN "PN"
+F 4 "STM32F767ZIT6" H 3100 5425 50  0001 C CNN "PN"
 	1    3100 5425
 	1    0    0    -1  
 $EndComp
