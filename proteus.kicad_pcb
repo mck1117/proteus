@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 2883)
     (zones 0)
     (modules 1541)
@@ -27618,6 +27618,9 @@
     )
   )
 
+  (gr_text "v0.1    december 2019" (at 131.826 7.62) (layer F.SilkS) (tstamp 5DDDEAA3)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
   (gr_text RESET (at 52.832 -10.922 90) (layer F.SilkS) (tstamp 5DE07C7A)
     (effects (font (size 1 1) (thickness 0.15)))
   )
