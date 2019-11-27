@@ -26938,7 +26938,7 @@
     )
   )
 
-  (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5D924AD6)
+  (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5DE075DF)
     (at 28.448 -58.537)
     (descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "SSOP 0.65")

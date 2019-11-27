@@ -1692,7 +1692,7 @@ F 4 "USBLC6-2" H 8900 3625 50  0001 C CNN "PN"
 	1    8900 3625
 	1    0    0    -1  
 $EndComp
-Text Label 8300 3625 2    50   ~ 0
+Text Label 9475 3625 0    50   ~ 0
 USB_D-
 Wire Wire Line
 	8300 3525 8400 3525
@@ -1700,7 +1700,7 @@ Wire Wire Line
 	8300 3725 8400 3725
 Wire Wire Line
 	8300 3525 8300 3725
-Text Label 9475 3625 0    50   ~ 0
+Text Label 8300 3625 2    50   ~ 0
 USB_D+
 Wire Wire Line
 	9400 3525 9475 3525
