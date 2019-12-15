@@ -1137,9 +1137,9 @@ Text HLabel 4300 5025 2    50   Output ~ 0
 SBC_CSN
 Text HLabel 4300 5325 2    50   Input ~ 0
 SBC_MISO
-Text HLabel 4300 7225 2    50   Output ~ 0
+Text HLabel 4300 7325 2    50   Output ~ 0
 CAN_TX
-Text HLabel 4300 7325 2    50   Input ~ 0
+Text HLabel 4300 7225 2    50   Input ~ 0
 CAN_RX
 Text HLabel 800  2275 0    50   Input ~ 0
 RSTN
