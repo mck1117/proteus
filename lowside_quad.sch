@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:proteus-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L vnld5090:VNLD5090 U201
+L proteus-rescue:VNLD5090-vnld5090 U201
 U 1 1 5D98A4D3
 P 4175 2025
 AR Path="/5D98A146/5D98A4D3" Ref="U201"  Part="1" 
@@ -23,6 +23,7 @@ AR Path="/5D99F107/5D98A4D3" Ref="U301"  Part="1"
 AR Path="/5D99F37F/5D98A4D3" Ref="U401"  Part="1" 
 AR Path="/5D99F54C/5D98A4D3" Ref="U501"  Part="1" 
 AR Path="/5D99F9BC/5D98A4D3" Ref="U601"  Part="1" 
+AR Path="/5D98A4D3" Ref="U201"  Part="1" 
 F 0 "U201" H 4175 2672 60  0000 C CNN
 F 1 "VNLD5160" H 4175 2566 60  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4275 1775 60  0001 C CNN
@@ -99,7 +100,7 @@ IN1
 Text HLabel 2200 2800 0    50   Input ~ 0
 IN2
 $Comp
-L vnld5090:VNLD5090 U202
+L proteus-rescue:VNLD5090-vnld5090 U202
 U 1 1 5D994C02
 P 4175 3675
 AR Path="/5D98A146/5D994C02" Ref="U202"  Part="1" 
@@ -107,6 +108,7 @@ AR Path="/5D99F107/5D994C02" Ref="U302"  Part="1"
 AR Path="/5D99F37F/5D994C02" Ref="U402"  Part="1" 
 AR Path="/5D99F54C/5D994C02" Ref="U502"  Part="1" 
 AR Path="/5D99F9BC/5D994C02" Ref="U602"  Part="1" 
+AR Path="/5D994C02" Ref="U202"  Part="1" 
 F 0 "U202" H 4175 4322 60  0000 C CNN
 F 1 "VNLD5160" H 4175 4216 60  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4275 3425 60  0001 C CNN
