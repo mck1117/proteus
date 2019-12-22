@@ -5,5 +5,4 @@
   (lib (name vnq7140aj)(type Legacy)(uri ${KIPRJMOD}/vnq7140aj.lib)(options "")(descr ""))
   (lib (name tle9471)(type Legacy)(uri ${KIPRJMOD}/tle9471.lib)(options "")(descr ""))
   (lib (name max9924)(type Legacy)(uri ${KIPRJMOD}/max9924.lib)(options "")(descr ""))
-  (lib (name proteus-rescue)(type Legacy)(uri ${KIPRJMOD}/proteus-rescue.lib)(options "")(descr ""))
 )
