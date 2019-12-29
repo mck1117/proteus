@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -11,10 +11,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu power hide)
-    (2 In2.Cu power hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (1 In1.Cu power)
+    (2 In2.Cu power)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -937,10 +937,10 @@
   (module conn_5_2.5mm:conn_5_2.5mm (layer F.Cu) (tedit 5E023FB2) (tstamp 5E028D26)
     (at 56.388 -36.322 180)
     (path /5D99E6EE/5E02F1FD)
-    (fp_text reference J1504 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference J1504 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_B (at 0 -0.5) (layer F.Fab)
+    (fp_text value USB_B (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 5 thru_hole circle (at 5 0 180) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask)
@@ -958,10 +958,10 @@
   (module powersso:PowerSSO-16 (layer F.Cu) (tedit 5930173B) (tstamp 5DE075DF)
     (at 28.448 -58.537 270)
     (path /5DD5B2E0/5DD5CC01)
-    (fp_text reference U1301 (at 0 0.5 90) (layer F.SilkS)
+    (fp_text reference U1301 (at 0 0.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNQ7140AJ (at 0 -0.5 90) (layer F.Fab)
+    (fp_text value VNQ7140AJ (at 0 -0.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user * (at -1.8796 1.6891 90) (layer F.SilkS)
@@ -1029,10 +1029,10 @@
     (tags "SOT-323 SC-70")
     (path /5DCC02D0/5DD4EE1D)
     (attr smd)
-    (fp_text reference D1102 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D1102 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1048,7 +1048,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1070,10 +1070,10 @@
     (tags "SOT-323 SC-70")
     (path /5DCC02D0/5DA3F0AD)
     (attr smd)
-    (fp_text reference D1101 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D1101 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1089,7 +1089,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1111,10 +1111,10 @@
     (tags "SOT-323 SC-70")
     (path /5DA6C714/5DA4489D)
     (attr smd)
-    (fp_text reference D902 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D902 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1130,7 +1130,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1152,10 +1152,10 @@
     (tags "SOT-323 SC-70")
     (path /5DA6C714/5DD4EE1C)
     (attr smd)
-    (fp_text reference D901 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D901 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1171,7 +1171,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1193,10 +1193,10 @@
     (tags "SOT-323 SC-70")
     (path /5DA6C1EA/5DA4489D)
     (attr smd)
-    (fp_text reference D802 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D802 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1212,7 +1212,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1234,10 +1234,10 @@
     (tags "SOT-323 SC-70")
     (path /5DA6C1EA/5DD4EE1C)
     (attr smd)
-    (fp_text reference D801 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D801 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1253,7 +1253,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1275,10 +1275,10 @@
     (tags "SOT-323 SC-70")
     (path /5D9A3845/5DA4489D)
     (attr smd)
-    (fp_text reference D702 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D702 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1294,7 +1294,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1316,10 +1316,10 @@
     (tags "SOT-323 SC-70")
     (path /5D9A3845/5DD4EE1C)
     (attr smd)
-    (fp_text reference D701 (at -0.05 -1.95) (layer F.SilkS)
+    (fp_text reference D701 (at -0.05 -1.95) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab)
+    (fp_text value BAV70 (at -0.05 2.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -1335,7 +1335,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0 270) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -1453,10 +1453,10 @@
     (tags SOT-23-6)
     (path /5D99E6EE/5DDF7429)
     (attr smd)
-    (fp_text reference U1502 (at 0 2.9) (layer B.SilkS)
+    (fp_text reference U1502 (at 0 2.9) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value USBLC6-2SC6 (at 0 -2.9) (layer B.Fab)
+    (fp_text value USBLC6-2SC6 (at 0 -2.9) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.9 1.55) (end 0.9 -1.55) (layer B.Fab) (width 0.1))
@@ -1470,7 +1470,7 @@
     (fp_line (start 1.9 1.8) (end -1.9 1.8) (layer B.CrtYd) (width 0.05))
     (fp_line (start 0.9 1.61) (end -1.55 1.61) (layer B.SilkS) (width 0.12))
     (fp_line (start -0.9 -1.61) (end 0.9 -1.61) (layer B.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0 270) (layer B.Fab)
+    (fp_text user %R (at 0 0 270) (layer B.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify mirror))
     )
     (pad 5 smd rect (at 1.1 0 180) (size 1.06 0.65) (layers B.Cu B.Paste B.Mask)
@@ -2017,7 +2017,7 @@
     (fp_text reference D1 (at -0.05 -1.95 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PESD1CAN-UX (at -0.05 2.05 90) (layer F.Fab)
+    (fp_text value PESD1CAN-UX (at -0.05 2.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.18 -1.1) (end -0.68 -0.6) (layer F.Fab) (width 0.1))
@@ -2033,7 +2033,7 @@
     (fp_line (start 1.7 1.3) (end -1.7 1.3) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.73 -1.16) (end 0.73 -0.5) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.73 0.5) (end 0.73 1.16) (layer F.SilkS) (width 0.12))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (pad 3 smd rect (at 1 0) (size 0.45 0.7) (layers F.Cu F.Paste F.Mask)
@@ -2465,7 +2465,7 @@
     (fp_text reference J111 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab)
+    (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -2503,7 +2503,7 @@
     (fp_text reference J110 (at 0 2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab)
+    (fp_text value Conn_01x01 (at 0 2.33) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -2542,7 +2542,7 @@
     (fp_text reference D1503 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value schottky (at 0 -2.1) (layer B.Fab)
+    (fp_text value schottky (at 0 -2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -2.25 1) (end 1.65 1) (layer B.SilkS) (width 0.12))
@@ -2598,7 +2598,7 @@
     (fp_text reference SW1502 (at 0 2.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SW_Push (at 0 -2.5) (layer B.Fab)
+    (fp_text value SW_Push (at 0 -2.5) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 0.75 0) (layer B.Fab) (width 0.1))
@@ -2639,7 +2639,7 @@
     (fp_text reference R1513 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.43) (layer F.Fab)
+    (fp_text value 10k (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -2783,7 +2783,7 @@
     (fp_text reference J108 (at 0 -2.398) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab)
+    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 1.75) (layer F.SilkS) (width 0.12))
@@ -2804,7 +2804,7 @@
     (fp_text reference J107 (at 0 -2.398) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab)
+    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 1.75) (layer F.SilkS) (width 0.12))
@@ -2825,7 +2825,7 @@
     (fp_text reference J105 (at 0 -2.398) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab)
+    (fp_text value Conn_01x01 (at 0 2.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 1.75) (layer F.SilkS) (width 0.12))
@@ -2930,7 +2930,7 @@
     (fp_text reference R1512 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 1.43) (layer F.Fab)
+    (fp_text value R (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -2966,7 +2966,7 @@
     (fp_text reference R1511 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 1.43) (layer F.Fab)
+    (fp_text value R (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3002,7 +3002,7 @@
     (fp_text reference R1510 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 1.43) (layer F.Fab)
+    (fp_text value R (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3038,7 +3038,7 @@
     (fp_text reference R1509 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 1.43) (layer F.Fab)
+    (fp_text value R (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3074,7 +3074,7 @@
     (fp_text reference D1507 (at 0 -1.38) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.38) (layer F.Fab)
+    (fp_text value LED (at 0 1.38) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3112,7 +3112,7 @@
     (fp_text reference D1506 (at 0 -1.38) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.38) (layer F.Fab)
+    (fp_text value LED (at 0 1.38) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3150,7 +3150,7 @@
     (fp_text reference D1505 (at 0 -1.38) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.38) (layer F.Fab)
+    (fp_text value LED (at 0 1.38) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3188,7 +3188,7 @@
     (fp_text reference D1504 (at 0 -1.38) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.38) (layer F.Fab)
+    (fp_text value LED (at 0 1.38) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -3322,7 +3322,7 @@
     (fp_text reference F102 (at 0 -1.82 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Polyfuse (at 0 1.82 90) (layer F.Fab)
+    (fp_text value Polyfuse (at 0 1.82 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -3358,7 +3358,7 @@
     (fp_text reference F101 (at 0 -1.82 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Polyfuse (at 0 1.82 90) (layer F.Fab)
+    (fp_text value Polyfuse (at 0 1.82 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -17145,7 +17145,7 @@
     (fp_text reference J1503 (at -5.8 -4.55 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_B (at -1.25 10.25 90) (layer F.Fab)
+    (fp_text value USB_B (at -1.25 10.25 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.5 9.5) (end -9 9.5) (layer F.CrtYd) (width 0.05))
@@ -17197,7 +17197,7 @@
     (fp_text reference U902 (at 0 3.5 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLS205 (at 0 -3.5 90) (layer B.Fab)
+    (fp_text value TLS205 (at 0 -3.5 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -2.075 2.525) (end -3.475 2.525) (layer B.SilkS) (width 0.15))
@@ -17259,7 +17259,7 @@
     (fp_text reference C904 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -17295,7 +17295,7 @@
     (fp_text reference C903 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 4.7u (at 0 -1.43) (layer B.Fab)
+    (fp_text value 4.7u (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -17331,7 +17331,7 @@
     (fp_text reference C902 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1u (at 0 -1.43) (layer B.Fab)
+    (fp_text value 1u (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -17367,7 +17367,7 @@
     (fp_text reference D903 (at 0 3 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D_Schottky (at 0 -3.1 90) (layer B.Fab)
+    (fp_text value D_Schottky (at 0 -3.1 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.55 2.15) (end 2.15 2.15) (layer B.SilkS) (width 0.12))
@@ -17410,7 +17410,7 @@
     (fp_text reference R1004 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 120 (at 0 1.43) (layer F.Fab)
+    (fp_text value 120 (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17446,7 +17446,7 @@
     (fp_text reference C1211 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17482,7 +17482,7 @@
     (fp_text reference U1204 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX9924 (at 0 2.6) (layer F.Fab)
+    (fp_text value MAX9924 (at 0 2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17540,7 +17540,7 @@
     (fp_text reference U1203 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX9924 (at 0 2.6) (layer F.Fab)
+    (fp_text value MAX9924 (at 0 2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17598,7 +17598,7 @@
     (fp_text reference R1216 (at 0 1.43 225) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value R (at 0 -1.43 225) (layer B.Fab)
+    (fp_text value R (at 0 -1.43 225) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 225) (layer B.Fab) hide
@@ -17634,7 +17634,7 @@
     (fp_text reference R1215 (at 0 1.43 225) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value R (at 0 -1.43 225) (layer B.Fab)
+    (fp_text value R (at 0 -1.43 225) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 225) (layer B.Fab) hide
@@ -17670,7 +17670,7 @@
     (fp_text reference R1508 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R (at 0 1.43) (layer F.Fab)
+    (fp_text value R (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17706,7 +17706,7 @@
     (fp_text reference R905 (at 0 1.43 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -1.43 270) (layer B.Fab)
+    (fp_text value 10k (at 0 -1.43 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 270) (layer B.Fab) hide
@@ -17742,7 +17742,7 @@
     (fp_text reference J104 (at -0.48 13.9) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Conn_01x10 (at -0.48 -13.9) (layer B.Fab)
+    (fp_text value Conn_01x10 (at -0.48 -13.9) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at -0.48 0 270) (layer B.Fab) hide
@@ -17910,7 +17910,7 @@
     (fp_text reference D1502 (at 0 -1.38) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.38) (layer F.Fab)
+    (fp_text value LED (at 0 1.38) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -17948,7 +17948,7 @@
     (fp_text reference Y1501 (at 0 -2.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 8MHz (at 0 2.45) (layer F.Fab)
+    (fp_text value 8MHz (at 0 2.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.1 -1.7) (end -2.1 -1.7) (layer F.CrtYd) (width 0.05))
@@ -17993,7 +17993,7 @@
     (fp_text reference R1507 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18029,7 +18029,7 @@
     (fp_text reference R1506 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18065,7 +18065,7 @@
     (fp_text reference R1301 (at 0 1.43 135) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -1.43 135) (layer B.Fab)
+    (fp_text value 10k (at 0 -1.43 135) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 135) (layer B.Fab) hide
@@ -18101,7 +18101,7 @@
     (fp_text reference R1001 (at 0 1.43 315) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -1.43 315) (layer B.Fab)
+    (fp_text value 10k (at 0 -1.43 315) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 315) (layer B.Fab) hide
@@ -18137,7 +18137,7 @@
     (fp_text reference C1519 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2u (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 2.2u (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -18173,7 +18173,7 @@
     (fp_text reference C1409 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -18209,7 +18209,7 @@
     (fp_text reference R1214 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18245,7 +18245,7 @@
     (fp_text reference R1213 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18281,7 +18281,7 @@
     (fp_text reference R1212 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18317,7 +18317,7 @@
     (fp_text reference R1211 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18353,7 +18353,7 @@
     (fp_text reference R1210 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18389,7 +18389,7 @@
     (fp_text reference R1209 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18425,7 +18425,7 @@
     (fp_text reference R1208 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18461,7 +18461,7 @@
     (fp_text reference R1207 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18497,7 +18497,7 @@
     (fp_text reference R1206 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18533,7 +18533,7 @@
     (fp_text reference R1205 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5k (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 5k (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18569,7 +18569,7 @@
     (fp_text reference C1210 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18605,7 +18605,7 @@
     (fp_text reference C1209 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18641,7 +18641,7 @@
     (fp_text reference R1408 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18677,7 +18677,7 @@
     (fp_text reference R1407 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18713,7 +18713,7 @@
     (fp_text reference R1406 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18749,7 +18749,7 @@
     (fp_text reference R1405 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18785,7 +18785,7 @@
     (fp_text reference R1404 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18821,7 +18821,7 @@
     (fp_text reference R1403 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18857,7 +18857,7 @@
     (fp_text reference R1402 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18893,7 +18893,7 @@
     (fp_text reference R1401 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18929,7 +18929,7 @@
     (fp_text reference R1204 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -18965,7 +18965,7 @@
     (fp_text reference R1203 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19001,7 +19001,7 @@
     (fp_text reference R1202 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 33k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19037,7 +19037,7 @@
     (fp_text reference R1201 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 2.2k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19073,7 +19073,7 @@
     (fp_text reference D1404 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19114,7 +19114,7 @@
     (fp_text reference D1403 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19155,7 +19155,7 @@
     (fp_text reference D1402 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19196,7 +19196,7 @@
     (fp_text reference D1401 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19237,7 +19237,7 @@
     (fp_text reference D1202 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19278,7 +19278,7 @@
     (fp_text reference D1201 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -19319,7 +19319,7 @@
     (fp_text reference C1408 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19355,7 +19355,7 @@
     (fp_text reference C1407 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19391,7 +19391,7 @@
     (fp_text reference C1406 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19427,7 +19427,7 @@
     (fp_text reference C1405 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19463,7 +19463,7 @@
     (fp_text reference C1404 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19499,7 +19499,7 @@
     (fp_text reference C1403 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19535,7 +19535,7 @@
     (fp_text reference C1402 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19571,7 +19571,7 @@
     (fp_text reference C1401 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19607,7 +19607,7 @@
     (fp_text reference C1208 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19643,7 +19643,7 @@
     (fp_text reference C1207 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19679,7 +19679,7 @@
     (fp_text reference C1205 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19715,7 +19715,7 @@
     (fp_text reference C1204 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -19751,7 +19751,7 @@
     (fp_text reference RN1801 (at 0 2.8 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.2k (at 0 -2.8 270) (layer B.Fab)
+    (fp_text value 2.2k (at 0 -2.8 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -19799,7 +19799,7 @@
     (fp_text reference RN1701 (at 0 2.8 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.2k (at 0 -2.8 270) (layer B.Fab)
+    (fp_text value 2.2k (at 0 -2.8 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -19847,7 +19847,7 @@
     (fp_text reference RN1601 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2k (at 0 2.8) (layer F.Fab)
+    (fp_text value 2.2k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -19895,7 +19895,7 @@
     (fp_text reference U1802 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -19946,7 +19946,7 @@
     (fp_text reference U1801 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -19997,7 +19997,7 @@
     (fp_text reference U1702 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20048,7 +20048,7 @@
     (fp_text reference U1701 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20099,7 +20099,7 @@
     (fp_text reference U1603 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20150,7 +20150,7 @@
     (fp_text reference U1602 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab)
+    (fp_text value MIC4427 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20201,7 +20201,7 @@
     (fp_text reference R1804 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20237,7 +20237,7 @@
     (fp_text reference R1803 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20273,7 +20273,7 @@
     (fp_text reference R1802 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20309,7 +20309,7 @@
     (fp_text reference R1801 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20345,7 +20345,7 @@
     (fp_text reference R1704 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20381,7 +20381,7 @@
     (fp_text reference R1703 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20417,7 +20417,7 @@
     (fp_text reference R1702 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20453,7 +20453,7 @@
     (fp_text reference R1701 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20489,7 +20489,7 @@
     (fp_text reference R1604 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20525,7 +20525,7 @@
     (fp_text reference R1603 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20561,7 +20561,7 @@
     (fp_text reference R1602 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -20597,7 +20597,7 @@
     (fp_text reference R1601 (at 0 -1.65 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 100 (at 0 1.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -20633,7 +20633,7 @@
     (fp_text reference C1806 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -20669,7 +20669,7 @@
     (fp_text reference C1805 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20705,7 +20705,7 @@
     (fp_text reference C1804 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20741,7 +20741,7 @@
     (fp_text reference C1803 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20777,7 +20777,7 @@
     (fp_text reference C1802 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20813,7 +20813,7 @@
     (fp_text reference C1801 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20849,7 +20849,7 @@
     (fp_text reference C1706 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20885,7 +20885,7 @@
     (fp_text reference C1705 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20921,7 +20921,7 @@
     (fp_text reference C1704 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20957,7 +20957,7 @@
     (fp_text reference C1703 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -20993,7 +20993,7 @@
     (fp_text reference C1702 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21029,7 +21029,7 @@
     (fp_text reference C1701 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21065,7 +21065,7 @@
     (fp_text reference C1609 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21101,7 +21101,7 @@
     (fp_text reference C1608 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21137,7 +21137,7 @@
     (fp_text reference C1607 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21173,7 +21173,7 @@
     (fp_text reference C1606 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -21209,7 +21209,7 @@
     (fp_text reference C1605 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -21245,7 +21245,7 @@
     (fp_text reference C1604 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -21281,7 +21281,7 @@
     (fp_text reference U1202 (at 0 -3.55 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 74AHCV17APW (at 0 3.55 45) (layer F.Fab)
+    (fp_text value 74AHCV17APW (at 0 3.55 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -21347,7 +21347,7 @@
     (fp_text reference RN502 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -21395,7 +21395,7 @@
     (fp_text reference RN402 (at 0 2.8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -21443,7 +21443,7 @@
     (fp_text reference RN302 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -21491,7 +21491,7 @@
     (fp_text reference RN202 (at 0 2.8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -21539,7 +21539,7 @@
     (fp_text reference L1002 (at 0 2.7) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -3.2) (layer B.Fab)
+    (fp_text value 2.2u (at 0 -3.2) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.2 -1.6) (end 0.2 -1.6) (layer B.SilkS) (width 0.12))
@@ -21572,7 +21572,7 @@
     (fp_text reference J103 (at 0 -8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Conn_01x35 (at 0 8 90) (layer B.Fab)
+    (fp_text value Conn_01x35 (at 0 8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -38.45 16.05) (end -38.45 -16.05) (layer B.SilkS) (width 0.5))
@@ -21661,7 +21661,7 @@
     (fp_text reference J102 (at 0 -8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Conn_01x35 (at 0 8 90) (layer B.Fab)
+    (fp_text value Conn_01x35 (at 0 8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -38.45 16.05) (end -38.45 -16.05) (layer B.SilkS) (width 0.5))
@@ -21750,7 +21750,7 @@
     (fp_text reference J101 (at 0 -8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Conn_01x23 (at 0 8) (layer B.Fab)
+    (fp_text value Conn_01x23 (at 0 8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -30.4 -16.05) (end -30.4 16.05) (layer B.SilkS) (width 0.5))
@@ -21818,7 +21818,7 @@
     (fp_text reference C1206 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 1n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -21854,7 +21854,7 @@
     (fp_text reference C1006 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 100n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -21890,7 +21890,7 @@
     (fp_text reference C1001 (at 0 5.2 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 68u (at 0 -5.2 180) (layer B.Fab)
+    (fp_text value 68u (at 0 -5.2 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -21947,7 +21947,7 @@
     (fp_text reference U1001 (at -5.3 0 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLE9471-3ES (at 0 0 90) (layer B.Fab)
+    (fp_text value TLE9471-3ES (at 0 0 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -4.05 -3.76) (end -4.05 3.76) (layer B.CrtYd) (width 0.05))
@@ -22020,7 +22020,7 @@
     (fp_text reference C1004 (at 3.175 -0.254 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 22u (at 0 -2.28 270) (layer B.Fab)
+    (fp_text value 22u (at 0 -2.28 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 270) (layer B.Fab) hide
@@ -22056,7 +22056,7 @@
     (fp_text reference L1001 (at 0 -0.254) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 15u (at 0 4 270) (layer B.Fab)
+    (fp_text value 15u (at 0 4 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.3 3.1) (end -3.3 -3.1) (layer B.CrtYd) (width 0.05))
@@ -22098,7 +22098,7 @@
     (fp_text reference C1522 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12p (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 12p (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -22134,7 +22134,7 @@
     (fp_text reference SW1501 (at 0 2.5 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SW_Push (at 0 -2.5 270) (layer B.Fab)
+    (fp_text value SW_Push (at 0 -2.5 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 0.75 0) (layer B.Fab) (width 0.1))
@@ -22175,7 +22175,7 @@
     (fp_text reference R1505 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DNP (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value DNP (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22211,7 +22211,7 @@
     (fp_text reference R1005 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DNP (at 0 1.43 90) (layer F.Fab)
+    (fp_text value DNP (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -22247,7 +22247,7 @@
     (fp_text reference R1002 (at 0 -1.43 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DNP (at 0 1.43 270) (layer F.Fab)
+    (fp_text value DNP (at 0 1.43 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab) hide
@@ -22283,7 +22283,7 @@
     (fp_text reference C1003 (at 0 1.43 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -1.43 270) (layer B.Fab)
+    (fp_text value 100n (at 0 -1.43 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 270) (layer B.Fab) hide
@@ -22319,7 +22319,7 @@
     (fp_text reference C1002 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1u (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 1u (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22355,7 +22355,7 @@
     (fp_text reference U1005 (at 0 -3.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLS115 (at 0 3.5 90) (layer F.Fab)
+    (fp_text value TLS115 (at 0 3.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.075 -2.525) (end -3.475 -2.525) (layer F.SilkS) (width 0.15))
@@ -22417,7 +22417,7 @@
     (fp_text reference U1004 (at 0 -3.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLS115 (at 0 3.5) (layer F.Fab)
+    (fp_text value TLS115 (at 0 3.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.075 -2.525) (end -3.475 -2.525) (layer F.SilkS) (width 0.15))
@@ -22479,7 +22479,7 @@
     (fp_text reference U901 (at 0 -3.55 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab)
+    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -22545,7 +22545,7 @@
     (fp_text reference U801 (at 0 -1.524 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab)
+    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -22611,7 +22611,7 @@
     (fp_text reference RN903 (at 0 2.8 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -22659,7 +22659,7 @@
     (fp_text reference RN803 (at 0 2.8 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -22707,7 +22707,7 @@
     (fp_text reference R1007 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10k (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -22743,7 +22743,7 @@
     (fp_text reference R1006 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10k (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -22779,7 +22779,7 @@
     (fp_text reference R904 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22815,7 +22815,7 @@
     (fp_text reference R903 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22851,7 +22851,7 @@
     (fp_text reference R902 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22887,7 +22887,7 @@
     (fp_text reference R804 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22923,7 +22923,7 @@
     (fp_text reference R803 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22959,7 +22959,7 @@
     (fp_text reference R802 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -22995,7 +22995,7 @@
     (fp_text reference D1001 (at 0 -4.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SM15T33CA (at 0 4.2) (layer F.Fab)
+    (fp_text value SM15T33CA (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.8 -3.25) (end 3.6 -3.25) (layer F.SilkS) (width 0.12))
@@ -23038,7 +23038,7 @@
     (fp_text reference C1018 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -23074,7 +23074,7 @@
     (fp_text reference C1010 (at 0 -1.397 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 4.7u (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 4.7u (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23110,7 +23110,7 @@
     (fp_text reference C1017 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -23146,7 +23146,7 @@
     (fp_text reference C1016 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -23182,7 +23182,7 @@
     (fp_text reference C1015 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -23218,7 +23218,7 @@
     (fp_text reference C202 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -23254,7 +23254,7 @@
     (fp_text reference C204 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23290,7 +23290,7 @@
     (fp_text reference C201 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -23326,7 +23326,7 @@
     (fp_text reference C203 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23362,7 +23362,7 @@
     (fp_text reference C302 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23398,7 +23398,7 @@
     (fp_text reference C304 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23434,7 +23434,7 @@
     (fp_text reference C301 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23470,7 +23470,7 @@
     (fp_text reference C303 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23506,7 +23506,7 @@
     (fp_text reference C402 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23542,7 +23542,7 @@
     (fp_text reference C404 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23578,7 +23578,7 @@
     (fp_text reference C401 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23614,7 +23614,7 @@
     (fp_text reference C403 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23650,7 +23650,7 @@
     (fp_text reference C502 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23686,7 +23686,7 @@
     (fp_text reference C504 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23722,7 +23722,7 @@
     (fp_text reference C501 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23758,7 +23758,7 @@
     (fp_text reference C503 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -1.43) (layer B.Fab)
+    (fp_text value 10n (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23794,7 +23794,7 @@
     (fp_text reference R702 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23830,7 +23830,7 @@
     (fp_text reference R703 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -23866,7 +23866,7 @@
     (fp_text reference R704 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -23902,7 +23902,7 @@
     (fp_text reference RN201 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -23950,7 +23950,7 @@
     (fp_text reference RN301 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -23998,7 +23998,7 @@
     (fp_text reference RN401 (at 0 2.8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.8 90) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -24046,7 +24046,7 @@
     (fp_text reference RN501 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 1k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -24094,7 +24094,7 @@
     (fp_text reference RN703 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -24142,7 +24142,7 @@
     (fp_text reference U201 (at 0 -3.4 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4 90) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -24193,7 +24193,7 @@
     (fp_text reference U202 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24244,7 +24244,7 @@
     (fp_text reference U301 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24295,7 +24295,7 @@
     (fp_text reference U302 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24346,7 +24346,7 @@
     (fp_text reference U401 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24397,7 +24397,7 @@
     (fp_text reference U402 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24448,7 +24448,7 @@
     (fp_text reference U501 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24499,7 +24499,7 @@
     (fp_text reference U502 (at 0 -3.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab)
+    (fp_text value VNLD5160 (at 0 3.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -24550,7 +24550,7 @@
     (fp_text reference U701 (at 0 -1.524 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab)
+    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -24616,7 +24616,7 @@
     (fp_text reference C701 (at 0 1.43 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab)
+    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
@@ -24652,7 +24652,7 @@
     (fp_text reference C801 (at 0 1.43 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab)
+    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
@@ -24688,7 +24688,7 @@
     (fp_text reference C901 (at 0 1.43 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab)
+    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
@@ -24724,7 +24724,7 @@
     (fp_text reference C1518 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2u (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 2.2u (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -24760,7 +24760,7 @@
     (fp_text reference C1521 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12p (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 12p (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -24796,7 +24796,7 @@
     (fp_text reference C1517 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -24832,7 +24832,7 @@
     (fp_text reference C1520 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -24868,7 +24868,7 @@
     (fp_text reference C1503 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -24904,7 +24904,7 @@
     (fp_text reference C1504 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -24940,7 +24940,7 @@
     (fp_text reference C1505 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -24976,7 +24976,7 @@
     (fp_text reference C1506 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -25012,7 +25012,7 @@
     (fp_text reference C1507 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -25048,7 +25048,7 @@
     (fp_text reference C1501 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -25084,7 +25084,7 @@
     (fp_text reference C1502 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -25120,7 +25120,7 @@
     (fp_text reference C1101 (at 0 1.43 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab)
+    (fp_text value 33n (at 0 -1.43 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
@@ -25156,7 +25156,7 @@
     (fp_text reference CN701 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -2.8) (layer B.Fab)
+    (fp_text value 100n (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -25204,7 +25204,7 @@
     (fp_text reference CN801 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -2.8) (layer B.Fab)
+    (fp_text value 100n (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -25252,7 +25252,7 @@
     (fp_text reference CN901 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -2.8) (layer B.Fab)
+    (fp_text value 100n (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -25300,7 +25300,7 @@
     (fp_text reference CN1101 (at 0 2.8) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -2.8) (layer B.Fab)
+    (fp_text value 100n (at 0 -2.8) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -25348,7 +25348,7 @@
     (fp_text reference FB1501 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Ferrite_Bead (at 0 1.43) (layer F.Fab)
+    (fp_text value Ferrite_Bead (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -25384,7 +25384,7 @@
     (fp_text reference J1502 (at 0 4.235 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Conn_02x05_Odd_Even (at 0 -4.235 180) (layer B.Fab)
+    (fp_text value Conn_02x05_Odd_Even (at 0 -4.235 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
@@ -25472,7 +25472,7 @@
     (fp_text reference R701 (at 0 1.43) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0) (layer B.Fab) hide
@@ -25508,7 +25508,7 @@
     (fp_text reference R801 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25544,7 +25544,7 @@
     (fp_text reference R901 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 500k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25580,7 +25580,7 @@
     (fp_text reference R1502 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.43) (layer F.Fab)
+    (fp_text value 10k (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -25616,7 +25616,7 @@
     (fp_text reference R1101 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25652,7 +25652,7 @@
     (fp_text reference R1102 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25688,7 +25688,7 @@
     (fp_text reference R1103 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25724,7 +25724,7 @@
     (fp_text reference R1104 (at 0 1.43 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab)
+    (fp_text value 2.7k (at 0 -1.43 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 0 180) (layer B.Fab) hide
@@ -25760,7 +25760,7 @@
     (fp_text reference RN701 (at -0.508 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.8) (layer F.Fab)
+    (fp_text value 10k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -25808,7 +25808,7 @@
     (fp_text reference RN702 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5.6k (at 0 2.8) (layer F.Fab)
+    (fp_text value 5.6k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -25856,7 +25856,7 @@
     (fp_text reference RN801 (at -0.508 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.8) (layer F.Fab)
+    (fp_text value 10k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -25904,7 +25904,7 @@
     (fp_text reference RN802 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5.6k (at 0 2.8) (layer F.Fab)
+    (fp_text value 5.6k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -25952,7 +25952,7 @@
     (fp_text reference RN901 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 2.8) (layer F.Fab)
+    (fp_text value 10k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -26000,7 +26000,7 @@
     (fp_text reference RN902 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5.6k (at 0 2.8) (layer F.Fab)
+    (fp_text value 5.6k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -26048,7 +26048,7 @@
     (fp_text reference RN1101 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 47k (at 0 2.8) (layer F.Fab)
+    (fp_text value 47k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -26096,7 +26096,7 @@
     (fp_text reference RN1102 (at 0 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 5.6k (at 0 2.8) (layer F.Fab)
+    (fp_text value 5.6k (at 0 2.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.55 1.85) (end -1.55 1.85) (layer F.CrtYd) (width 0.05))
@@ -26144,7 +26144,7 @@
     (fp_text reference RN1103 (at 0 2.8 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -26192,7 +26192,7 @@
     (fp_text reference U1101 (at 0 -3.55 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab)
+    (fp_text value MCP6004 (at 0 3.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26258,7 +26258,7 @@
     (fp_text reference C1516 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 100n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26294,7 +26294,7 @@
     (fp_text reference C1201 (at 0 -1.82 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10u (at 0 1.82 90) (layer F.Fab)
+    (fp_text value 10u (at 0 1.82 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26330,7 +26330,7 @@
     (fp_text reference C1202 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26366,7 +26366,7 @@
     (fp_text reference C1203 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -26402,7 +26402,7 @@
     (fp_text reference R1501 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 100k (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26438,7 +26438,7 @@
     (fp_text reference U1201 (at 0 -5.4 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLE9201SG (at 0 6 90) (layer F.Fab)
+    (fp_text value TLE9201SG (at 0 6 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.75 -3.2) (end -3.75 -2.2) (layer F.Fab) (width 0.1))
@@ -26520,7 +26520,7 @@
     (fp_text reference C1301 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -26556,7 +26556,7 @@
     (fp_text reference C1302 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26592,7 +26592,7 @@
     (fp_text reference C1303 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26628,7 +26628,7 @@
     (fp_text reference C1304 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -26664,7 +26664,7 @@
     (fp_text reference C1601 (at 0 -1.82 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10u (at 0 1.82 90) (layer F.Fab)
+    (fp_text value 10u (at 0 1.82 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26700,7 +26700,7 @@
     (fp_text reference C1602 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26736,7 +26736,7 @@
     (fp_text reference C1603 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26772,7 +26772,7 @@
     (fp_text reference RN1301 (at 0 2.8 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab)
+    (fp_text value 10k (at 0 -2.8 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.55 -1.85) (end -1.55 -1.85) (layer B.CrtYd) (width 0.05))
@@ -26820,7 +26820,7 @@
     (fp_text reference U1601 (at 0 -5.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLE9201SG (at 0 6) (layer F.Fab)
+    (fp_text value TLE9201SG (at 0 6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.75 -3.2) (end -3.75 -2.2) (layer F.Fab) (width 0.1))
@@ -26902,7 +26902,7 @@
     (fp_text reference C1523 (at 0 -1.43 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.43 90) (layer F.Fab)
+    (fp_text value 1u (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
@@ -26938,7 +26938,7 @@
     (fp_text reference D1501 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5) (layer F.Fab)
+    (fp_text value D_Schottky_x2_Serial_AKC (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -26979,7 +26979,7 @@
     (fp_text reference R1503 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 47k (at 0 1.43) (layer F.Fab)
+    (fp_text value 47k (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -27015,7 +27015,7 @@
     (fp_text reference R1504 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.43) (layer F.Fab)
+    (fp_text value 10k (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -27051,7 +27051,7 @@
     (fp_text reference C1508 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -27087,7 +27087,7 @@
     (fp_text reference C1509 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -27123,7 +27123,7 @@
     (fp_text reference C1510 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -27159,7 +27159,7 @@
     (fp_text reference C1511 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -27195,7 +27195,7 @@
     (fp_text reference C1512 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab) hide
@@ -27231,7 +27231,7 @@
     (fp_text reference C1513 (at 0 -1.43 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 135) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
@@ -27267,7 +27267,7 @@
     (fp_text reference C1514 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -27303,7 +27303,7 @@
     (fp_text reference C1515 (at 0 -1.43 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 45) (layer F.Fab)
+    (fp_text value 10n (at 0 1.43 45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 45) (layer F.Fab) hide
@@ -27339,7 +27339,7 @@
     (fp_text reference U1501 (at 0 -12.35 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value STM32F767ZITx (at 0 12.35 135) (layer F.Fab)
+    (fp_text value STM32F767ZITx (at 0 12.35 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 135) (layer F.Fab) hide
