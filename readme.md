@@ -31,11 +31,11 @@ A high-featured board compatible with rusEfi firmware.
     - LQFP144 package
 
 ## Connectors
-TE Connectivity AMPSEAL connectors (keying not yet determined).
+TE Connectivity AMPSEAL connectors:
 
 - 2x 35 pin connectors
-    - Board: TE 1-776231-1
-    - Plug: TE 776164-1
+    - Board: TE 776231-1 (black, right) and 776231-2 (white, left)
+    - Plug: TE 776164-1 (black, right) and 776164-2 (white, left)
 - 1x 23 pin connector
     - Board: TE 776228-1
     - Plug: TE 770680-1
