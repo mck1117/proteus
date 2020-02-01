@@ -1,3 +1,3 @@
 4 layer PCB
 
-134.5mm x 62mm
+135.5mm x 82.5mm
