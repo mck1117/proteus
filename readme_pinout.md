@@ -6,22 +6,22 @@
 
 # Black 35 pin 776231-1
 
-|Pin Number|Name   | Type ID | Default function                   |
-| ---:|:---------- | ----- |:------------------------------------ |
-|  1  | x          | y     |z                                     |
-|  2  | x          | y     |z                                     |
-|  3  |**Lowside 1** | y     |z                                     |
-|  4  |**Lowside 3**           | y     |z                                     |
-|  5  |**Lowside 5**| y     |z                                     |
-|  6  |**Lowside 6**| y     |z                                     |
-|  7  |**Lowside 7**| y     |z                                     |
-|  8  |**Lowside 9**| y     |z                                     |
-|  9  |**Lowside 11**| y     |z                                     |
-| 10  |**Lowside 13**| y     |z                                     |
-| 11  |**Lowside 14**| y     |z                                     |
-| 12  |**Lowside 15**| y     |z                                     |
-| 13  | x          | y     |z                                     |
-| 14  | x          | y     |z                                     |
+|Pin Number|Name      | Type ID | Default function                   |
+| ---:|:------------- | ----- |:------------------------------------ |
+|  1  |Highside #2    | hs    |z                                     |
+|  2  |Highside #1    | hs    |z                                     |
+|  3  |**Lowside #1** | ls    | Injector #1                          |
+|  4  |**Lowside #3** | ls    | Injector #3                          |
+|  5  |**Lowside #5** | ls    | Injector #5                          |
+|  6  |**Lowside #6** | ls    | Injector #6                          |
+|  7  |**Lowside #7** | ls    |z                                     |
+|  8  |**Lowside #9** | ls    |z                                     |
+|  9  |**Lowside #11**| ls    |z                                     |
+| 10  |**Lowside #13**| ls    |z                                     |
+| 11  |**Lowside #14**| ls    |z                                     |
+| 12  |**Lowside #15**| ls    |z                                     |
+| 13  |Highside #3    | hs    |z                                     |
+| 14  |Highside #4    | hs    |z                                     |
 | 15  | x          | y     |z                                     |
 | 16  | x          | y     |z                                     |
 | 17  | **GND**    | y     |z                                     |
@@ -111,7 +111,7 @@
 | 27  | AV8        | av    | Analog Voltage Input #8              |
 | 28  | AV10       | av    | Analog Voltage Input #10             |
 | 29  | AV12       | av    | Analog Voltage Input #12             |
-| 30  | AT2        | at    | Analog Thermistor Input #2           |
+| 30  | AT2        | at    | Intake air temperature               |
 | 31  | AT4        | at    | Analog Thermistor Input #4           |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
