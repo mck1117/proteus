@@ -2,7 +2,7 @@
 
 _protean: able to do many different things; versatile._
 
-A high-featured board compatible with rusEfi firmware.
+A high-featured board compatible with [rusEfi](https://github.com/rusefi/rusefi) firmware.
 
 # Goals and Non-Goals
 
