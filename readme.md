@@ -39,6 +39,8 @@ TE Connectivity AMPSEAL connectors:
 - 1x 23 pin connector
     - Board: TE 776228-1
     - Plug: TE 770680-1
+- 770854-1 terminals    
+    
 
 ## Connectivity
 
