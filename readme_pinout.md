@@ -69,12 +69,12 @@
 | 15  | ETB1+      | y     | ETB output                           |
 | 16  | CAN-       | can   |z                                     |
 | 17  | CAN+       | can   |z                                     |
-| 18  | +12        | y     |z                                     |
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    |
 | 19  | **GND**    | y     |z                                     |
 | 20  | n/c        | nc    | Nothing! Nada...                     |
 | 21  | ETB2-      | y     | ETB output                           |
 | 22  | ETB2+      | y     | ETB output                           |
-| 23  | x          | y     |z                                     |
+| 23  | +12V mr    | 12v   | ETB/high-side power from main relay |
 
 
 
@@ -92,8 +92,8 @@
 | 8   | **GND**    | pgnd  | Power GND                            |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
-| 11  | 12V PROT   | 12V   | 12V supply                           |
-| 12  | 12V PROT   | 12    | 12V supply                           |
+| 11  | +12V put   | 12v   | 12V protected output for sensors     |
+| 12  | +12V out   | 12v   | 12V protected output for sensors     |
 | 11  | AV1        | av    | Analog Voltage Input #1              |
 | 14  | AV3        | av    | Analog Voltage Input #3              |
 | 15  | AV5        | av    | Analog Voltage Input #5              |
