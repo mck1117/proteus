@@ -14,9 +14,9 @@
 |  4  |**Lowside #3** | ls    | Injector #3                          |
 |  5  |**Lowside #5** | ls    | Injector #5                          |
 |  6  |**Lowside #6** | ls    | Injector #6                          |
-|  7  |**Lowside #7** | ls    | low-side output                      |
-|  8  |**Lowside #9** | ls    | low-side output                      |
-|  9  |**Lowside #11**| ls    | low-side output                      |
+|  7  |**Lowside #7** | ls    | Injector #7                          |
+|  8  |**Lowside #9** | ls    | Injector #9                          |
+|  9  |**Lowside #11**| ls    | Injector #11                         |
 | 10  |**Lowside #13**| ls    | low-side output: main relay          |
 | 11  |**Lowside #14**| ls    | low-side output                      |
 | 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  |
@@ -26,9 +26,9 @@
 | 16  |**Lowside #4** | ls    | Injector #4                          |
 | 17  | **GND**       | y     |z                                     |
 | 18  | **GND**       | y     |z                                     |
-| 19  |**Lowside #8** | y     | low-side output                      |
-| 20  |**Lowside #10**| y     | low-side output                      |
-| 21  |**Lowside #12**| y     | low-side output                      |
+| 19  |**Lowside #8** | y     | Injector #8                          |
+| 20  |**Lowside #10**| y     | Injector #10                         |
+| 21  |**Lowside #12**| y     | Injector #12                         |
 | 22  | Ignition 3    | y     |z                                     |
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           |
 | 24  | **GND**       | y     |z                                     |
