@@ -1,4 +1,4 @@
-update=1/17/2020 12:48:17 AM
+update=Friday, February 28, 2020 at 07:22:38 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export/v0.2/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -49,8 +59,8 @@ ViaDiameter4=1.2
 ViaDrill4=0.9
 ViaDiameter5=2
 ViaDrill5=1.4
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.254
+dPairGap1=0.254
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -251,27 +261,17 @@ ViaDiameter=0.59944
 ViaDrill=0.29972
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.254
+dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=diffpair
-Clearance=0.254
+Clearance=0.1524
 TrackWidth=0.254
 ViaDiameter=0.59944
 ViaDrill=0.29972
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.254
+dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=export/v0.2/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

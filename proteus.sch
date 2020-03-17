@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title "rusEfi Proteus"
 Date "2020-01-17"
 Rev "v0.2"
@@ -417,8 +417,8 @@ F45 "HS4" O R 4500 5050 50
 F46 "12V_SENSE" I L 2700 3475 50 
 F47 "SBC_SCK" O L 2700 4475 50 
 F48 "SBC_MOSI" O L 2700 4550 50 
-F49 "SBC_CSN" O L 2700 4625 50 
-F50 "SBC_MISO" I L 2700 4700 50 
+F49 "SBC_CSN" O L 2700 4700 50 
+F50 "SBC_MISO" I L 2700 4625 50 
 F51 "CAN_TX" O L 2700 5075 50 
 F52 "CAN_RX" I L 2700 5150 50 
 F53 "RSTN" I L 2700 4850 50 
@@ -451,6 +451,8 @@ F79 "KNOCK_GPIO1" B L 2700 7300 50
 F80 "USB_D-" B R 4500 7400 50 
 F81 "USB_D+" B R 4500 7325 50 
 F82 "USB_SHIELD" U R 4500 7475 50 
+F83 "KNOCK_1" I L 2700 7475 50 
+F84 "KNOCK_2" I L 2700 7550 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_01x35 J102
@@ -775,13 +777,13 @@ Text Label 7600 3800 2    50   ~ 0
 IGN7
 Text Label 7600 3700 2    50   ~ 0
 IGN8
-Text Label 10400 2300 2    50   ~ 0
+Text Label 10400 1500 2    50   ~ 0
 ETB1+
-Text Label 10400 1600 2    50   ~ 0
+Text Label 10400 1400 2    50   ~ 0
 ETB1-
-Text Label 10400 3000 2    50   ~ 0
+Text Label 10400 2300 2    50   ~ 0
 ETB2+
-Text Label 10400 2900 2    50   ~ 0
+Text Label 10400 1600 2    50   ~ 0
 ETB2-
 Text Label 10400 3100 2    50   ~ 0
 12V_MR
@@ -900,55 +902,6 @@ Text Label 10400 1200 2    50   ~ 0
 VR2+
 Text Label 10400 2000 2    50   ~ 0
 VR2-
-Text Label 9000 4200 2    50   ~ 0
-KNOCK_1
-Text Label 9000 4300 2    50   ~ 0
-KNOCK_2
-Text Label 1675 7500 0    50   ~ 0
-KNOCK_1
-Text Label 1675 7600 0    50   ~ 0
-KNOCK_2
-$Comp
-L power:GND #PWR0215
-U 1 1 5DEB2916
-P 1300 7400
-F 0 "#PWR0215" H 1300 7150 50  0001 C CNN
-F 1 "GND" V 1305 7272 50  0000 R CNN
-F 2 "" H 1300 7400 50  0001 C CNN
-F 3 "" H 1300 7400 50  0001 C CNN
-	1    1300 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1300 7100 2700 7100
-Wire Wire Line
-	1300 7000 2700 7000
-Wire Wire Line
-	1300 6900 2700 6900
-$Comp
-L Connector_Generic:Conn_01x10 J104
-U 1 1 5DED40B6
-P 1100 7100
-F 0 "J104" H 1375 7125 50  0000 C CNN
-F 1 "Conn_01x10" H 1425 7025 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-89010xx_1x10_P2.54mm_Horizontal" H 1100 7100 50  0001 C CNN
-F 3 "~" H 1100 7100 50  0001 C CNN
-	1    1100 7100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 6800 2700 6800
-$Comp
-L power:+3.3V #PWR0216
-U 1 1 5DEDA13F
-P 1300 6700
-F 0 "#PWR0216" H 1300 6550 50  0001 C CNN
-F 1 "+3.3V" V 1315 6828 50  0000 L CNN
-F 2 "" H 1300 6700 50  0001 C CNN
-F 3 "" H 1300 6700 50  0001 C CNN
-	1    1300 6700
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0217
 U 1 1 5DF02925
@@ -987,12 +940,6 @@ Text Label 4500 7325 0    50   ~ 0
 USB_D+
 Text Label 4500 7400 0    50   ~ 0
 USB_D-
-Text Label 10400 1500 2    50   ~ 0
-USB_D-
-Text Label 10400 2200 2    50   ~ 0
-USB_D+
-Text Label 10400 1400 2    50   ~ 0
-USB_SHIELD
 Text Label 4500 7475 0    50   ~ 0
 USB_SHIELD
 $Comp
@@ -1121,36 +1068,6 @@ F 3 "" H 7200 5125 50  0001 C CNN
 $EndComp
 Text Notes 9525 4725 0    50   ~ 0
 Connectors\n776228-1\n\n776231-1\n\n776231-2\n\nMating plugs\n770680-1\n\n776164-1\n\n776164-2\n\nTerminals\n770854-1\n\nall of the above cheap from ttiinc.com
-$Comp
-L Connector_Generic:Conn_01x01 J110
-U 1 1 5DDE88BF
-P 2250 7500
-F 0 "J110" H 2330 7542 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 7451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 7500 50  0001 C CNN
-F 3 "~" H 2250 7500 50  0001 C CNN
-	1    2250 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J111
-U 1 1 5DDE8FFD
-P 2250 7600
-F 0 "J111" H 2330 7642 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 7551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 7600 50  0001 C CNN
-F 3 "~" H 2250 7600 50  0001 C CNN
-	1    2250 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 7500 2050 7500
-Wire Wire Line
-	1300 7600 2050 7600
-Wire Wire Line
-	1300 7200 2700 7200
-Wire Wire Line
-	1300 7300 2700 7300
 NoConn ~ 10400 2800
 $Comp
 L power:PWR_FLAG #FLG0108
@@ -1165,4 +1082,34 @@ F 3 "~" H 9300 5500 50  0001 C CNN
 $EndComp
 Text Label 9300 5500 3    50   ~ 0
 12V_MR
+$Sheet
+S 800  6850 1225 725 
+U 5E814213
+F0 "knock" 50
+F1 "knock.sch" 50
+F2 "FILTERED_1" O R 2025 7050 50 
+F3 "INPUT_1" I L 800 7025 50 
+F4 "FILTERED_2" O R 2025 7300 50 
+F5 "INPUT_2" I L 800 7250 50 
+$EndSheet
+Wire Wire Line
+	2025 7050 2275 7050
+Wire Wire Line
+	2275 7050 2275 7475
+Wire Wire Line
+	2275 7475 2700 7475
+Wire Wire Line
+	2025 7300 2100 7300
+Wire Wire Line
+	2100 7300 2100 7550
+Wire Wire Line
+	2100 7550 2700 7550
+Text Label 800  7025 2    50   ~ 0
+KNOCK_1
+Text Label 800  7250 2    50   ~ 0
+KNOCK_2
+Text Label 9000 4200 2    50   ~ 0
+KNOCK_1
+Text Label 9000 4300 2    50   ~ 0
+KNOCK_2
 $EndSCHEMATC
