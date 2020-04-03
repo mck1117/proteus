@@ -1,10 +1,6 @@
+# Proteus Pinout & Wiring
 
-
-
-
-
-
-# Black 35 pin 776231-1
+## Black 35 Pin 776231-1
 
 |Pin Number|Name      | Type ID | Default function                   |
 | ---:|:------------- | ----- |:------------------------------------ |
@@ -24,32 +20,27 @@
 | 14  |Highside #4    | hs    | output                               |
 | 15  |**Lowside #2** | ls    | Injector #2                          |
 | 16  |**Lowside #4** | ls    | Injector #4                          |
-| 17  | **GND**       | y     |z                                     |
-| 18  | **GND**       | y     |z                                     |
+| 17  | **GND**       | y     | Power GND                            |
+| 18  | **GND**       | y     | Power GND                            |
 | 19  |**Lowside #8** | y     | Injector #8                          |
 | 20  |**Lowside #10**| y     | Injector #10                         |
 | 21  |**Lowside #12**| y     | Injector #12                         |
-| 22  | Ignition 3    | y     |z                                     |
+| 22  | Ignition 3    | y     | Ignition cylinder 3                  |
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           |
-| 24  | **GND**       | y     |z                                     |
-| 25  | Ignition 12   | y     |z                                     |
-| 26  | Ignition 11   | y     |z                                     |
-| 27  | Ignition 10   | y     |z                                     |
-| 28  | Ignition 9    | y     |z                                     |
-| 29  | Ignition 8    | y     |z                                     |
-| 30  | Ignition 7    | y     |z                                     |
-| 31  | Ignition 6    | y     |z                                     |
-| 32  | Ignition 5    | y     |z                                     |
-| 33  | Ignition 4    | y     |z                                     |
-| 34  | Ignition 2    | y     |z                                     |
-| 35  | Ignition 1    | y     |z                                     |
+| 24  | **GND**       | y     | Power GND                            |
+| 25  | Ignition 12   | y     | Ignition cylinder 12                 |
+| 26  | Ignition 11   | y     | Ignition cylinder 11                 |
+| 27  | Ignition 10   | y     | Ignition cylinder 10                 |
+| 28  | Ignition 9    | y     | Ignition cylinder 9                  |
+| 29  | Ignition 8    | y     | Ignition cylinder 8                  |
+| 30  | Ignition 7    | y     | Ignition cylinder 7                  |
+| 31  | Ignition 6    | y     | Ignition cylinder 6                  |
+| 32  | Ignition 5    | y     | Ignition cylinder 5                  |
+| 33  | Ignition 4    | y     | Ignition cylinder 4                  |
+| 34  | Ignition 2    | y     | Ignition cylinder 2                  |
+| 35  | Ignition 1    | y     | Ignition cylinder 1                  |
 
-
-
-
-
-
-# 23 pin 776228-1
+## Black 23 Pin 776228-1
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
 | 1   | DIGITAL 2  | din   | Digital Input #2                     |
@@ -57,44 +48,41 @@
 | 3   | DIGITAL 4  | din   | Digital Input #4                     |
 | 4   | VR2 pos    | vr    | Variable Reluctance #2 positive      |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      |
-| 6   | USB SHIELD | usb   |z                                     |
-| 7   | USB D-     | usb   |z                                     |
-| 8   | ETB1-      | y     | ETB output                           |
+| 6   | USB SHIELD | usb   | USB                                  |
+| 7   | USB D-     | usb   | USB                                  |
+| 8   | ETB1-      | y     | ETB 1                                |
 | 9   | DIGITAL 5  | y     |z                                     |
 | 10  | DIGITAL 1  | y     |z                                     |
 | 11  | DIGITAL 6  | y     |z                                     |
 | 12  | VR2 neg    | vr    | Variable Reluctance #2 negative      |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      |
-| 14  | USB D+     | usb   |z                                     |
-| 15  | ETB1+      | y     | ETB output                           |
-| 16  | CAN-       | can   |z                                     |
-| 17  | CAN+       | can   |z                                     |
+| 14  | USB D+     | usb   | USB                                  |
+| 15  | ETB1+      | y     | ETB 1                                |
+| 16  | CAN-       | can   | CAN bus low                          |
+| 17  | CAN+       | can   | CAN bus high                         |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    |
-| 19  | **GND**    | y     |z                                     |
+| 19  | **GND**    | y     | Power GND                            |
 | 20  | n/c        | nc    | Nothing! Nada...                     |
-| 21  | ETB2-      | y     | ETB output                           |
-| 22  | ETB2+      | y     | ETB output                           |
+| 21  | ETB2-      | y     | ETB 2                                |
+| 22  | ETB2+      | y     | ETB 2                                |
 | 23  | +12V mr    | 12v   | ETB/high-side power from main relay |
 
-
-
-
-# White 35 pin 776231-2
+## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
-| 1   | **GND**    | pgnd  | Power GND                            |
-| 2   | **GND**    | pgnd  | Power GND                            |
-| 3   | **GND**    | pgnd  | Power GND                            |
-| 4   | **GND**    | pgnd  | Power GND                            |
-| 5   | **GND**    | pgnd  | Power GND                            |
-| 6   | **GND**    | pgnd  | Power GND                            |
-| 7   | **GND**    | pgnd  | Power GND                            |
-| 8   | **GND**    | pgnd  | Power GND                            |
+| 1   | **GND**    | sgnd  | Sensor GND                           |
+| 2   | **GND**    | sgnd  | Sensor GND                           |
+| 3   | **GND**    | sgnd  | Sensor GND                           |
+| 4   | **GND**    | sgnd  | Sensor GND                           |
+| 5   | **GND**    | sgnd  | Sensor GND                           |
+| 6   | **GND**    | sgnd  | Sensor GND                           |
+| 7   | **GND**    | sgnd  | Sensor GND                           |
+| 8   | **GND**    | sgnd  | Sensor GND                           |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
-| 11  | +12V put   | 12v   | 12V protected output for sensors     |
+| 11  | +12V out   | 12v   | 12V protected output for sensors     |
 | 12  | +12V out   | 12v   | 12V protected output for sensors     |
-| 11  | AV1        | av    | Analog Voltage Input #1              |
+| 13  | AV1        | av    | Analog Voltage Input #1              |
 | 14  | AV3        | av    | Analog Voltage Input #3              |
 | 15  | AV5        | av    | Analog Voltage Input #5              |
 | 16  | AV7        | av    | Analog Voltage Input #7              |
@@ -104,7 +92,7 @@
 | 20  | AT3        | at    | Analog Thermistor Input #3           |
 | 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
-| 23  | **GND**    | sgnd  | Sensor Ground                        |
+| 23  | **GND**    | sgnd  | Sensor GND                           |
 | 24  | AV2        | av    | Analog Voltage Input #2              |
 | 25  | AV4        | av    | Analog Voltage Input #4              |
 | 26  | AV6        | av    | Analog Voltage Input #6              |
@@ -118,7 +106,6 @@
 | 34  | KNOCK 1    |       |                                      |
 | 35  | KNOCK 2    |       |                                      |
 
-
-# Misc notes
+## Misc notes
 - UB-20PMFP-LC7002 waterproof USB connector
 - Hammond 1590XXFL metal enclosure
