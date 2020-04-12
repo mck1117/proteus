@@ -4,6 +4,8 @@ _protean: able to do many different things; versatile._
 
 A high-featured board compatible with [rusEfi](https://github.com/rusefi/rusefi) firmware.
 
+TL;DR [Proteus Board Pinout](readme_pinout.md)
+
 # Goals and Non-Goals
 
 ## Goals
@@ -39,6 +41,8 @@ TE Connectivity AMPSEAL connectors:
 - 1x 23 pin connector
     - Board: TE 776228-1
     - Plug: TE 770680-1
+- 770854-1 terminals    
+    
 
 ## Connectivity
 
