@@ -65,8 +65,6 @@ Text HLabel 6500 3475 2    50   Input ~ 0
 AV10
 Text HLabel 6500 3575 2    50   Input ~ 0
 AV11
-Text HLabel 6500 3675 2    50   Input ~ 0
-AV12
 Text HLabel 6500 6775 2    50   Input ~ 0
 AT1
 Text HLabel 6500 6875 2    50   Input ~ 0
@@ -808,7 +806,7 @@ Wire Notes Line
 	11125 2800 11125 1500
 Text Notes 11175 1625 0    50   ~ 0
 12V Sense Divider
-Text Label 4100 6675 2    50   ~ 0
+Text Label 6500 3675 0    50   ~ 0
 12V_DIVIDED
 $Comp
 L Device:C C1523
@@ -1346,8 +1344,6 @@ Wire Wire Line
 	3575 4575 4050 4575
 Wire Wire Line
 	3575 4275 4050 4275
-Text Notes 2725 4825 0    50   ~ 0
-ABM8AIG-8.000MHZ-1Z-T
 $Comp
 L Device:LED D1502
 U 1 1 5D96F679
