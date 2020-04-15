@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -11517,6 +11517,11 @@
       (net 95 /AV2))
     (pad 1 thru_hole circle (at -22 4 90) (size 2.4 2.4) (drill 1.75) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/kicad-libraries/3d/AMPSEAL_35_STRAIGHT.STEP
+      (offset (xyz 0 0 34))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module ampseal:ampseal-35 (layer B.Cu) (tedit 5DD65812) (tstamp 5D94F0AB)
@@ -11606,6 +11611,11 @@
       (net 1 GND) (thermal_width 0.5588) (thermal_gap 0.3556))
     (pad 1 thru_hole circle (at -22 4 270) (size 2.4 2.4) (drill 1.75) (layers *.Cu *.Mask)
       (net 108 /HS2))
+    (model ${KIPRJMOD}/kicad-libraries/3d/AMPSEAL_35_STRAIGHT.STEP
+      (offset (xyz 0 0 34))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DE00724)
