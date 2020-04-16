@@ -129,7 +129,7 @@ F101,Polyfuse,R_1206_3216Metric,130.81,57.15,90,top
 F102,Polyfuse,R_1206_3216Metric,133.985,57.15,270,top
 FB1501,Ferrite_Bead,L_0603_1608Metric,100.838,3.048,0,top
 J1502,Conn_02x05_Odd_Even,PinHeader_2x05_P1.27mm_Vertical_SMD,57.15,10.414,270,top
-L1001,10u,L_Bourns-SRN6028,80.264,41.021,0,top
+L1001,10u,MWSA0503,79.248,41.148,180,top
 L1002,2.2u,L_1210_3225Metric,72.136,46.99,180,top
 R1,5.6k,R_0402_1005Metric,105.918,1.524,0,top
 R2,5.6k,R_0402_1005Metric,111.506,3.302,270,top
@@ -258,9 +258,9 @@ R1801,100,R_0805_2012Metric,37.592,35.56,0,top
 R1802,100,R_0805_2012Metric,37.338,38.862,0,top
 R1803,100,R_0805_2012Metric,37.084,42.672,0,top
 R1804,100,R_0805_2012Metric,37.084,45.72,0,top
+REF**,Fiducial_1.5mm_Mask3mm,Fiducial_1.5mm_Mask3mm,133.731,-4.191,0,top
 REF**,Fiducial_1.5mm_Mask3mm,Fiducial_1.5mm_Mask3mm,126.746,61.849,0,top
 REF**,Fiducial_1.5mm_Mask3mm,Fiducial_1.5mm_Mask3mm,18.161,65.659,0,top
-REF**,Fiducial_1.5mm_Mask3mm,Fiducial_1.5mm_Mask3mm,133.731,-4.191,0,top
 RN201,1k,R_Array_Convex_4x0603,44.45,3.048,270,top
 RN202,1k,R_Array_Convex_4x0603,48.514,3.048,90,top
 RN301,1k,R_Array_Convex_4x0603,44.45,-0.762,270,top
