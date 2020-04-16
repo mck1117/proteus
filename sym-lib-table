@@ -6,4 +6,5 @@
   (lib (name tle9471)(type Legacy)(uri ${KIPRJMOD}/tle9471.lib)(options "")(descr ""))
   (lib (name max9924)(type Legacy)(uri ${KIPRJMOD}/max9924.lib)(options "")(descr ""))
   (lib (name lmr14020)(type Legacy)(uri ${KIPRJMOD}/lmr14020.lib)(options "")(descr ""))
+  (lib (name bts4175)(type Legacy)(uri ${KIPRJMOD}/bts4175.lib)(options "")(descr ""))
 )
