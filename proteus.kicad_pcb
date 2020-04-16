@@ -852,6 +852,7 @@
   (module sunlord-MWSA0503:MWSA0503 (layer F.Cu) (tedit 5E989EE2) (tstamp 5E9D2B92)
     (at 79.248 -41.148 180)
     (path /5DA72EFF/5D92626A)
+    (attr smd)
     (fp_text reference L1001 (at 0 9.6) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )

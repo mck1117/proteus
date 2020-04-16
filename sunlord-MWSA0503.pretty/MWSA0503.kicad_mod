@@ -1,4 +1,5 @@
-(module MWSA0503 (layer F.Cu) (tedit 5E989CA2)
+(module MWSA0503 (layer F.Cu) (tedit 5E98A8EC)
+  (attr smd)
   (fp_text reference REF** (at 0 9.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
