@@ -1977,4 +1977,48 @@ Text Notes 9250 8025 0    50   ~ 0
 Green - running
 Text Notes 9250 8400 0    50   ~ 0
 Orange - warning
+Text Label 12775 4725 2    50   ~ 0
+USB_D-
+Text Label 12775 4625 2    50   ~ 0
+USB_D+
+Wire Wire Line
+	12775 4525 12400 4525
+$Comp
+L power:GND #PWR0307
+U 1 1 5EA9C1CF
+P 12775 4825
+F 0 "#PWR0307" H 12775 4575 50  0001 C CNN
+F 1 "GND" H 12780 4652 50  0000 C CNN
+F 2 "" H 12775 4825 50  0001 C CNN
+F 3 "" H 12775 4825 50  0001 C CNN
+	1    12775 4825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12325 4925 12775 4925
+Wire Wire Line
+	12400 4525 12400 3825
+Connection ~ 12400 3825
+Wire Wire Line
+	12325 4225 12325 4925
+Connection ~ 12325 4225
+$Comp
+L Connector_Generic:Conn_01x05 J1501
+U 1 1 5EABB1F3
+P 12975 4725
+F 0 "J1501" H 13055 4767 50  0000 L CNN
+F 1 "USB_B" H 12850 4425 50  0000 L CNN
+F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 12975 4725 50  0001 C CNN
+F 3 "~" H 12975 4725 50  0001 C CNN
+F 4 "5787834-1" H 12975 4725 50  0001 C CNN "PN"
+F 5 "N/A" H 12975 4725 50  0001 C CNN "LCSC"
+	1    12975 4725
+	1    0    0    -1  
+$EndComp
+Text Notes 12500 3000 0    50   ~ 0
+Component side
+Text Notes 12575 3725 0    50   ~ 0
+Pin header
+Text Notes 12500 4450 0    50   ~ 0
+Connector side
 $EndSCHEMATC
