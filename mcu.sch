@@ -1214,7 +1214,6 @@ NoConn ~ 4100 7875
 NoConn ~ 4100 8975
 NoConn ~ 4100 9075
 NoConn ~ 6500 7675
-NoConn ~ 6500 8675
 NoConn ~ 6500 5675
 NoConn ~ 6500 5775
 NoConn ~ 6500 4875
@@ -1827,11 +1826,6 @@ F 3 "" H 6025 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6500 8275
-NoConn ~ 6500 8575
-NoConn ~ 6500 7375
-NoConn ~ 6500 7475
-NoConn ~ 6500 7575
-NoConn ~ 6500 4475
 Text HLabel 4100 6775 0    50   Input ~ 0
 KNOCK_1
 Text HLabel 4100 6875 0    50   Input ~ 0
@@ -2021,4 +2015,62 @@ Text Notes 12575 3725 0    50   ~ 0
 Pin header
 Text Notes 12500 4450 0    50   ~ 0
 Connector side
+$Comp
+L Memory_Flash:W25Q128JVS U1503
+U 1 1 5EA3F26E
+P 12400 7025
+F 0 "U1503" H 12400 7606 50  0000 C CNN
+F 1 "W25Q128JVS" H 12400 7515 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 12400 7025 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 12400 7025 50  0001 C CNN
+F 4 "C97521" H 12400 7025 50  0001 C CNN "LCSC"
+	1    12400 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0308
+U 1 1 5EA417B4
+P 12400 7425
+F 0 "#PWR0308" H 12400 7175 50  0001 C CNN
+F 1 "GND" H 12405 7252 50  0000 C CNN
+F 2 "" H 12400 7425 50  0001 C CNN
+F 3 "" H 12400 7425 50  0001 C CNN
+	1    12400 7425
+	1    0    0    -1  
+$EndComp
+Text Label 12900 6825 0    50   ~ 0
+FLASH_MOSI
+Text Label 12900 6925 0    50   ~ 0
+FLASH_MISO
+Text Label 11900 7125 2    50   ~ 0
+FLASH_SCK
+Text Label 11900 6925 2    50   ~ 0
+FLASH_CS
+Text Label 12900 7125 0    50   ~ 0
+FLASH_WP
+Text Label 12900 7225 0    50   ~ 0
+FLASH_HOLD
+Text Label 6500 7575 0    50   ~ 0
+FLASH_MOSI
+Text Label 6500 7475 0    50   ~ 0
+FLASH_MISO
+Text Label 6500 8675 0    50   ~ 0
+FLASH_WP
+Text Label 6500 8575 0    50   ~ 0
+FLASH_HOLD
+Text Label 6500 7375 0    50   ~ 0
+FLASH_SCK
+Text Label 6500 4475 0    50   ~ 0
+FLASH_CS
+$Comp
+L power:+3.3V #PWR0309
+U 1 1 5EA7C041
+P 12400 6625
+F 0 "#PWR0309" H 12400 6475 50  0001 C CNN
+F 1 "+3.3V" V 12415 6753 50  0000 L CNN
+F 2 "" H 12400 6625 50  0001 C CNN
+F 3 "" H 12400 6625 50  0001 C CNN
+	1    12400 6625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
