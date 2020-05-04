@@ -1965,9 +1965,9 @@ Text Notes 9250 8025 0    50   ~ 0
 Green - running
 Text Notes 9250 8400 0    50   ~ 0
 Orange - warning
-Text Label 12775 4725 2    50   ~ 0
-USB_D-
 Text Label 12775 4625 2    50   ~ 0
+USB_D-
+Text Label 12775 4725 2    50   ~ 0
 USB_D+
 Wire Wire Line
 	12775 4525 12400 4525
