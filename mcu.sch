@@ -1650,9 +1650,9 @@ F 5 "N/A" H 12975 4025 50  0001 C CNN "LCSC"
 	1    12975 4025
 	1    0    0    -1  
 $EndComp
-Text Label 12775 4025 2    50   ~ 0
-USB_D-
 Text Label 12775 3925 2    50   ~ 0
+USB_D-
+Text Label 12775 4025 2    50   ~ 0
 USB_D+
 Wire Wire Line
 	12775 3825 12400 3825
