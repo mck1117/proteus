@@ -29,6 +29,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 2900 50 
 F 4 "MCP6004T-I/ST" H 6800 2700 50  0001 C CNN "PN"
 F 5 "C248577" H 6800 2700 50  0001 C CNN "LCSC"
 F 6 "1" H 6800 2700 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 6800 2700 50  0001 C CNN "possible_not_ext"
 	1    6800 2700
 	1    0    0    -1  
 $EndComp
@@ -48,6 +49,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 3475 50 
 F 4 "MCP6004T-I/ST" H 6800 3275 50  0001 C CNN "PN"
 F 5 "C248577" H 6800 3275 50  0001 C CNN "LCSC"
 F 6 "1" H 6800 3275 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 6800 3275 50  0001 C CNN "possible_not_ext"
 	2    6800 3275
 	1    0    0    -1  
 $EndComp
@@ -67,6 +69,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 4050 50 
 F 4 "MCP6004T-I/ST" H 6800 3850 50  0001 C CNN "PN"
 F 5 "C248577" H 6800 3850 50  0001 C CNN "LCSC"
 F 6 "1" H 6800 3850 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 6800 3850 50  0001 C CNN "possible_not_ext"
 	3    6800 3850
 	1    0    0    -1  
 $EndComp
@@ -86,6 +89,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 4625 50 
 F 4 "MCP6004T-I/ST" H 6800 4425 50  0001 C CNN "PN"
 F 5 "C248577" H 6800 4425 50  0001 C CNN "LCSC"
 F 6 "1" H 6800 4425 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 6800 4425 50  0001 C CNN "possible_not_ext"
 	4    6800 4425
 	1    0    0    -1  
 $EndComp
@@ -105,6 +109,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1675 1875 50 
 F 4 "MCP6004T-I/ST" H 1625 1675 50  0001 C CNN "PN"
 F 5 "C248577" H 1625 1675 50  0001 C CNN "LCSC"
 F 6 "1" H 1625 1675 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 1625 1675 50  0001 C CNN "possible_not_ext"
 	5    1625 1675
 	1    0    0    -1  
 $EndComp
