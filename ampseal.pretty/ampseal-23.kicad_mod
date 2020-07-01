@@ -1,4 +1,4 @@
-(module ampseal-23 (layer F.Cu) (tedit 5D930D4B)
+(module ampseal-23 (layer F.Cu) (tedit 5ED9717A)
   (fp_text reference REF** (at 0 8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -36,4 +36,9 @@
   (pad 21 thru_hole circle (at 6 4) (size 2.4 2.4) (drill 1.75) (layers *.Cu *.Mask))
   (pad 22 thru_hole circle (at 10 4) (size 2.4 2.4) (drill 1.75) (layers *.Cu *.Mask))
   (pad 23 thru_hole circle (at 14 4) (size 2.4 2.4) (drill 1.75) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/kicad-libraries/3d/c-1-776228-1-e-3d.STEP
+    (offset (xyz 0 0 34.15))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
