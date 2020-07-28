@@ -1527,4 +1527,16 @@ F 3 "" H 5050 4850 50  0001 C CNN
 $EndComp
 Text Notes 7125 975  0    50   ~ 0
 Yes, we know that the polarity is flipped going in to the VR interface chips.\nWhile originally on accident, it’s no big deal since they invert anyway:\nWhen VR+ transitions to a higher voltage than VR-, VR_OUT will output a rising edge.\n\nSee issue https://github.com/mck1117/proteus/issues/57 for more detail
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 5F261F00
+P 9950 1925
+F 0 "#FLG0111" H 9950 2000 50  0001 C CNN
+F 1 "PWR_FLAG" V 9950 2053 50  0001 L CNN
+F 2 "" H 9950 1925 50  0001 C CNN
+F 3 "~" H 9950 1925 50  0001 C CNN
+	1    9950 1925
+	0    1    1    0   
+$EndComp
+Connection ~ 9950 1925
 $EndSCHEMATC
