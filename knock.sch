@@ -508,7 +508,7 @@ F 4 "C53175" H 1850 1275 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 1275 2150 1275
+	2000 1275 2050 1275
 $Comp
 L Device:C C1903
 U 1 1 5F0F51A5
@@ -539,7 +539,7 @@ F 3 "" H 1050 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1275 1700 1275
+	1450 1275 1650 1275
 $Comp
 L Device:R R1904
 U 1 1 5F102E30
@@ -590,9 +590,9 @@ F 4 "C53175" H 1850 2750 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 2750 2175 2750
+	2000 2750 2075 2750
 Wire Wire Line
-	1450 2750 1700 2750
+	1450 2750 1625 2750
 Text Label 2400 1475 0    50   ~ 0
 V_mid
 Wire Wire Line
@@ -605,4 +605,56 @@ Text Label 1850 3775 2    50   ~ 0
 V_mid
 Wire Wire Line
 	1850 3775 1475 3775
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5F21DC7E
+P 1850 1450
+F 0 "JP1" H 1850 1375 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1850 975 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1850 1450 50  0001 C CNN
+F 3 "~" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5F21F16A
+P 1850 2900
+F 0 "JP2" H 1850 2825 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1850 2425 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1850 2900 50  0001 C CNN
+F 3 "~" H 1850 2900 50  0001 C CNN
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2900 1625 2900
+Wire Wire Line
+	1625 2900 1625 2750
+Connection ~ 1625 2750
+Wire Wire Line
+	1625 2750 1700 2750
+Wire Wire Line
+	1950 2900 2075 2900
+Wire Wire Line
+	2075 2900 2075 2750
+Connection ~ 2075 2750
+Wire Wire Line
+	2075 2750 2175 2750
+Wire Wire Line
+	1950 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 1275
+Connection ~ 2050 1275
+Wire Wire Line
+	2050 1275 2150 1275
+Wire Wire Line
+	1750 1450 1650 1450
+Wire Wire Line
+	1650 1450 1650 1275
+Connection ~ 1650 1275
+Wire Wire Line
+	1650 1275 1700 1275
+Text Notes 1025 1725 0    50   ~ 0
+Short jumper if DC is interesting
 $EndSCHEMATC
