@@ -2010,8 +2010,6 @@ Text Label 6500 7475 0    50   ~ 0
 SD_MISO
 Text Label 6500 7375 0    50   ~ 0
 SD_SCK
-Text Label 6500 4475 0    50   ~ 0
-FLASH_CS
 Wire Notes Line
 	11125 875  11125 2425
 Wire Notes Line
@@ -2197,4 +2195,5 @@ F 3 "~" H 12425 9600 50  0001 C CNN
 	1    12425 9600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6500 4475
 $EndSCHEMATC
