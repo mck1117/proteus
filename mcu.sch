@@ -1896,8 +1896,6 @@ F 5 "0" H 3575 4425 50  0001 C CNN "LCSC_ext"
 $EndComp
 Wire Wire Line
 	12125 1550 13250 1550
-NoConn ~ 6500 5875
-NoConn ~ 6500 5975
 NoConn ~ 6500 6075
 NoConn ~ 6500 6175
 $Comp
@@ -2196,4 +2194,8 @@ F 3 "~" H 12425 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6500 4475
+Text HLabel 6500 5975 2    50   Output ~ 0
+CAN2_TX
+Text HLabel 6500 5875 2    50   Input ~ 0
+CAN2_RX
 $EndSCHEMATC
