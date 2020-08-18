@@ -1,8 +1,8 @@
-(module ampseal-35 (layer F.Cu) (tedit 5ED9A31C) 
+(module ampseal-35-2 (layer F.Cu) (tedit 5ED9A330)
   (fp_text reference REF** (at 0 8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value ampseal-35 (at 0 -8) (layer F.Fab)
+  (fp_text value ampseal-35-2 (at 0 -8) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -38.45 -16.05) (end 38.45 -16.05) (layer F.SilkS) (width 0.5))
@@ -48,7 +48,7 @@
   (pad "" np_thru_hole circle (at -33.2 7.3) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 31.7 -10.8) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 33.2 7.3) (size 2 2) (drill 2) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kicad-libraries/3d/c-1-776231-1-d-3d.STEP
+  (model ${KIPRJMOD}/kicad-libraries/3d/c-1-776231-2-d-3d.STEP
     (offset (xyz 0 0 34.15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
