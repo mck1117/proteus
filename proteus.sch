@@ -1105,12 +1105,6 @@ F 3 "" H 9000 3700 50  0001 C CNN
 	1    9000 3700
 	0    1    1    0   
 $EndComp
-Text Label 10400 2900 2    50   ~ 0
-USB_D+
-Text Label 10400 2200 2    50   ~ 0
-USB_D-
-Text Label 10400 3000 2    50   ~ 0
-USB_SHIELD
 Wire Wire Line
 	10275 2700 10325 2700
 Wire Wire Line

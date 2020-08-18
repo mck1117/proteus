@@ -1819,7 +1819,6 @@ F 3 "" H 6025 1100 50  0001 C CNN
 	1    6025 1100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6500 8275
 Text HLabel 4100 6775 0    50   Input ~ 0
 KNOCK_1
 Text HLabel 4100 6875 0    50   Input ~ 0
@@ -2005,74 +2004,14 @@ Text Notes 12575 3725 0    50   ~ 0
 Pin header
 Text Notes 12500 4450 0    50   ~ 0
 Connector side
-$Comp
-L Memory_Flash:W25Q128JVS U1503
-U 1 1 5EA3F26E
-P 12400 7025
-F 0 "U1503" H 12100 7400 50  0000 C CNN
-F 1 "W25Q128JVS" H 12700 7400 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 12400 7025 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 12400 7025 50  0001 C CNN
-F 4 "C97521" H 12400 7025 50  0001 C CNN "LCSC"
-	1    12400 7025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0308
-U 1 1 5EA417B4
-P 12400 7425
-F 0 "#PWR0308" H 12400 7175 50  0001 C CNN
-F 1 "GND" H 12405 7252 50  0000 C CNN
-F 2 "" H 12400 7425 50  0001 C CNN
-F 3 "" H 12400 7425 50  0001 C CNN
-	1    12400 7425
-	1    0    0    -1  
-$EndComp
-Text Label 12900 6825 0    50   ~ 0
-FLASH_MOSI
-Text Label 12900 6925 0    50   ~ 0
-FLASH_MISO
-Text Label 11900 7125 2    50   ~ 0
-FLASH_SCK
-Text Label 11900 6925 2    50   ~ 0
-FLASH_CS
-Text Label 12900 7125 0    50   ~ 0
-FLASH_WP
-Text Label 12900 7225 0    50   ~ 0
-FLASH_HOLD
 Text Label 6500 7575 0    50   ~ 0
-FLASH_MOSI
+SD_MOSI
 Text Label 6500 7475 0    50   ~ 0
-FLASH_MISO
-Text Label 6500 8675 0    50   ~ 0
-FLASH_WP
-Text Label 6500 8575 0    50   ~ 0
-FLASH_HOLD
+SD_MISO
 Text Label 6500 7375 0    50   ~ 0
-FLASH_SCK
+SD_SCK
 Text Label 6500 4475 0    50   ~ 0
 FLASH_CS
-$Comp
-L power:+3.3V #PWR0309
-U 1 1 5EA7C041
-P 12400 6625
-F 0 "#PWR0309" H 12400 6475 50  0001 C CNN
-F 1 "+3.3V" V 12415 6753 50  0000 L CNN
-F 2 "" H 12400 6625 50  0001 C CNN
-F 3 "" H 12400 6625 50  0001 C CNN
-	1    12400 6625
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	13600 7750 11200 7750
-Wire Notes Line
-	11200 7750 11200 6175
-Wire Notes Line
-	11200 6175 13600 6175
-Wire Notes Line
-	13600 6175 13600 7750
-Text Notes 11250 6300 0    50   ~ 0
-256mbit Flash Memory
 Wire Notes Line
 	11125 875  11125 2425
 Wire Notes Line
@@ -2167,4 +2106,95 @@ Wire Wire Line
 	12150 9200 12150 9125
 Wire Wire Line
 	12150 9125 12225 9125
+$Comp
+L Connector:Micro_SD_Card J1
+U 1 1 5F3076E2
+P 12400 6775
+F 0 "J1" H 12350 7492 50  0000 C CNN
+F 1 "Micro_SD_Card" H 12350 7401 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 13550 7075 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 12400 6775 50  0001 C CNN
+	1    12400 6775
+	1    0    0    -1  
+$EndComp
+Text Label 11275 6875 2    50   ~ 0
+SD_SCK
+Text Label 11275 7075 2    50   ~ 0
+SD_MISO
+Text Label 11275 6675 2    50   ~ 0
+SD_MOSI
+$Comp
+L power:+3.3V #PWR0308
+U 1 1 5F308BF2
+P 11400 6775
+F 0 "#PWR0308" H 11400 6625 50  0001 C CNN
+F 1 "+3.3V" V 11415 6903 50  0000 L CNN
+F 2 "" H 11400 6775 50  0001 C CNN
+F 3 "" H 11400 6775 50  0001 C CNN
+	1    11400 6775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0309
+U 1 1 5F3092E3
+P 13250 7425
+F 0 "#PWR0309" H 13250 7175 50  0001 C CNN
+F 1 "GND" V 13255 7297 50  0000 R CNN
+F 2 "" H 13250 7425 50  0001 C CNN
+F 3 "" H 13250 7425 50  0001 C CNN
+	1    13250 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 7425 13250 7375
+Wire Wire Line
+	13250 7375 13200 7375
+$Comp
+L power:GND #PWR0315
+U 1 1 5F30FDDF
+P 11425 6975
+F 0 "#PWR0315" H 11425 6725 50  0001 C CNN
+F 1 "GND" V 11430 6847 50  0000 R CNN
+F 2 "" H 11425 6975 50  0001 C CNN
+F 3 "" H 11425 6975 50  0001 C CNN
+	1    11425 6975
+	0    1    1    0   
+$EndComp
+NoConn ~ 11500 6475
+NoConn ~ 11500 7175
+Wire Wire Line
+	11275 7075 11500 7075
+Wire Wire Line
+	11425 6975 11500 6975
+Wire Wire Line
+	11275 6875 11500 6875
+Wire Wire Line
+	11275 6675 11500 6675
+Wire Wire Line
+	11400 6775 11500 6775
+Text Label 6500 8275 0    50   ~ 0
+SD_CS
+Text Label 11275 6575 2    50   ~ 0
+SD_CS
+Wire Wire Line
+	11275 6575 11500 6575
+Text Label 6500 8575 0    50   ~ 0
+UART_TX
+Text Label 6500 8675 0    50   ~ 0
+UART_RX
+Text Label 12225 9600 2    50   ~ 0
+UART_TX
+Text Label 12225 9700 2    50   ~ 0
+UART_RX
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F3C8878
+P 12425 9600
+F 0 "J2" H 12505 9592 50  0000 L CNN
+F 1 "Conn_01x02" H 12505 9501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12425 9600 50  0001 C CNN
+F 3 "~" H 12425 9600 50  0001 C CNN
+	1    12425 9600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
