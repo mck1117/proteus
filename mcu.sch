@@ -2069,6 +2069,7 @@ F 0 "J1505" H 12505 8817 50  0000 L CNN
 F 1 "Conn_01x06" H 12505 8726 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 12425 8825 50  0001 C CNN
 F 3 "~" H 12425 8825 50  0001 C CNN
+F 4 "N/A" H 12425 8825 50  0001 C CNN "LCSC"
 	1    12425 8825
 	1    0    0    -1  
 $EndComp
@@ -2110,6 +2111,7 @@ F 0 "J1" H 12350 7492 50  0000 C CNN
 F 1 "Micro_SD_Card" H 12350 7401 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 13550 7075 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 12400 6775 50  0001 C CNN
+F 4 "N/A" H 12400 6775 50  0001 C CNN "LCSC"
 	1    12400 6775
 	1    0    0    -1  
 $EndComp
@@ -2190,6 +2192,7 @@ F 0 "J2" H 12505 9592 50  0000 L CNN
 F 1 "Conn_01x02" H 12505 9501 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12425 9600 50  0001 C CNN
 F 3 "~" H 12425 9600 50  0001 C CNN
+F 4 "N/A" H 12425 9600 50  0001 C CNN "LCSC"
 	1    12425 9600
 	1    0    0    -1  
 $EndComp
