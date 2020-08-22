@@ -1137,9 +1137,9 @@ F 3 "" H 3600 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text HLabel 4100 8775 0    50   Input ~ 0
-DIGITAL7
+VR_1
 Text HLabel 4100 8875 0    50   Input ~ 0
-DIGITAL8
+VR_2
 Text HLabel 6500 8475 2    50   Output ~ 0
 IGN1
 Text HLabel 6500 8375 2    50   Output ~ 0
