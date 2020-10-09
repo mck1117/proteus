@@ -17,7 +17,7 @@ TL;DR [Proteus Board Pinout](readme_pinout.md)
 
 ## Non-goals
 
-- Internal logging (doesn't make sense with 12 mbit/s USB, and a sealed enclosure)
+- ~Internal logging (doesn't make sense with 12 mbit/s USB, and a sealed enclosure)~ Version 0.4 has an SD card!
 - Direct injection
 - Cheap
 
