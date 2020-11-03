@@ -25,12 +25,13 @@ TL;DR [Proteus Board Pinout](readme_pinout.md)
 
 ## Microcontroller
 
-- STM32F767ZI
-    - 216 MHz ARM Cortex-M7
-    - 16 KB I/D caches
-    - 2MB flash
-    - 512 KB SRAM
+- STM32F429ZG
+    - 180 MHz ARM Cortex-M7
+    - 1MB flash
+    - 256 KB SRAM
     - LQFP144 package
+
+- Also fully compatible with several STM32F7 parts, including the STM32F767ZI, used on v0.1 and v0.2.
 
 ## Connectors
 TE Connectivity AMPSEAL connectors:
