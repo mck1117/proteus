@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 19
 Title "rusEfi Proteus"
-Date "2020-01-17"
-Rev "v0.2"
-Comp "rusEfi"
+Date "2020-11-29"
+Rev "v0.5"
+Comp "rusEFI"
 Comment1 "github.com/mck1117/proteus"
-Comment2 ""
+Comment2 "rusefi.com/s/proteus"
 Comment3 ""
 Comment4 ""
 $EndDescr

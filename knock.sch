@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 19
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "rusEfi Proteus"
+Date "2020-11-29"
+Rev "v0.5"
+Comp "rusEFI"
+Comment1 "github.com/mck1117/proteus"
+Comment2 "rusefi.com/s/proteus"
 Comment3 ""
 Comment4 ""
 $EndDescr
