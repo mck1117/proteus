@@ -808,20 +808,20 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8800 1300 50 
 F 4 "C7377" H 8800 1300 50  0001 C CNN "LCSC"
 F 5 "0" H 8800 1300 50  0001 C CNN "LCSC_ext"
 	1    8800 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U7
 U 2 1 5F4D1A43
 P 8800 2350
-F 0 "U7" H 8800 2717 50  0000 C CNN
-F 1 "MCP6002-xSN" H 8800 2626 50  0000 C CNN
+F 0 "U7" H 8800 2125 50  0000 C CNN
+F 1 "MCP6002-xSN" H 8800 2050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8800 2350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8800 2350 50  0001 C CNN
 F 4 "C7377" H 8800 2350 50  0001 C CNN "LCSC"
 F 5 "0" H 8800 2350 50  0001 C CNN "LCSC_ext"
 	2    8800 2350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U7
