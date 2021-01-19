@@ -553,11 +553,7 @@ Cortex Debug Header
 Wire Notes Line
 	7650 1500 9025 1500
 Wire Notes Line
-	9025 1500 9025 2675
-Wire Notes Line
 	9025 2675 7650 2675
-Wire Notes Line
-	7650 2675 7650 1500
 Text HLabel 6500 7875 2    50   Input ~ 0
 5V_SENSOR_1_PG
 Text HLabel 6500 7775 2    50   Input ~ 0
@@ -1849,17 +1845,6 @@ Wire Wire Line
 	12125 1550 13250 1550
 NoConn ~ 6500 6075
 NoConn ~ 6500 6175
-$Comp
-L power:PWR_FLAG #FLG0110
-U 1 1 5EB857B7
-P 2175 3950
-F 0 "#FLG0110" H 2175 4025 50  0001 C CNN
-F 1 "PWR_FLAG" H 2175 4123 50  0000 C CNN
-F 2 "" H 2175 3950 50  0001 C CNN
-F 3 "~" H 2175 3950 50  0001 C CNN
-	1    2175 3950
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4100 6675
 NoConn ~ 13250 1750
 NoConn ~ 14250 1750
@@ -2369,4 +2354,68 @@ F 3 "" H 2575 9625 50  0001 C CNN
 	1    2575 9625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 60073159
+P 8400 3200
+F 0 "J4" H 8480 3192 50  0000 L CNN
+F 1 "Conn_01x06" H 8480 3101 50  0000 L CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 8400 3200 50  0001 C CNN
+F 3 "~" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3100 7825 3100
+Wire Wire Line
+	8200 3300 7825 3300
+Text Label 7825 3100 0    50   ~ 0
+SWDIO
+Text Label 7825 3300 0    50   ~ 0
+SWCLK
+Text Label 7825 3200 0    50   ~ 0
+nRESET
+Wire Wire Line
+	7825 3200 8200 3200
+$Comp
+L power:GND #PWR0331
+U 1 1 6007A569
+P 8200 3400
+F 0 "#PWR0331" H 8200 3150 50  0001 C CNN
+F 1 "GND" H 8205 3227 50  0001 C CNN
+F 2 "" H 8200 3400 50  0001 C CNN
+F 3 "" H 8200 3400 50  0001 C CNN
+	1    8200 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0332
+U 1 1 6007BCC6
+P 8200 3000
+F 0 "#PWR0332" H 8200 2850 50  0001 C CNN
+F 1 "+3.3V" V 8215 3128 50  0000 L CNN
+F 2 "" H 8200 3000 50  0001 C CNN
+F 3 "" H 8200 3000 50  0001 C CNN
+	1    8200 3000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8200 3500
+Text Notes 7725 2825 0    50   ~ 0
+Tag Connect Debug Header
+Wire Notes Line
+	7650 3625 9025 3625
+Wire Notes Line
+	9025 1500 9025 3625
+Wire Notes Line
+	7650 1500 7650 3625
+Text Notes 750  9225 0    50   ~ 0
+Baro pressure sensor
+Wire Notes Line
+	675  9075 675  11025
+Wire Notes Line
+	675  11025 3325 11025
+Wire Notes Line
+	3325 11025 3325 9075
+Wire Notes Line
+	3325 9075 675  9075
 $EndSCHEMATC
