@@ -1,16 +1,16 @@
-Comment,Designator,Footprint, PN,Notes
-BTS4175SGA,"U1102,U1103,U1104,U1105",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,BTS4175,
-56u,"C17,C1001",Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,EEH-AZF1H560B,
-PESD1CAN-UX,"D1,D2",Package_TO_SOT_SMD:SOT-323_SC-70,PESD1CAN-UX,
-Polyfuse,"F101,F102",Resistor_SMD:R_1206_3216Metric,1206L012WR,
-Micro_SD_Card,J1,Connector_Card:microSD_HC_Wuerth_693072010801,47219-2001,
-Conn_01x23,J101,ampseal:ampseal-23,776228-1,
-Conn_01x35,J102,ampseal:ampseal-35,776231-1,
-Conn_01x35,J103,ampseal:ampseal-35-2,776231-2,
-Conn_02x05_Odd_Even,J1502,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD,FTSH-105-01-F-DV-007-K,"Optional, debugging only"
-USB_B,"J1503,J1501",Connector_USB:USB_B_TE_5787834_Vertical,5787834-1,"This and J1504 are optional, install one of the three"
-USB_B,J1504,conn_5_2.5mm:conn_5_2.5mm,UB-20PMFP-LC7002,
-AudioJack3,J3,Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal,SJ1-3533NG,
-TLS115,"U1004,U1005",Package_SO:Infineon_PG-DSO-8-43,TLS115D0E,
-MAX9924,"U1203,U1204",Package_SO:MSOP-10_3x3mm_P0.5mm,MAX9924UAUB+T,
-VNLD5160,"U201,U202,U301,U302,U401,U402,U501,U502",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,VNLD5160TR-E,
+Comment,Quantity,Designator,Footprint, PN,Notes
+BTS4175SGA,4,"U1102,U1103,U1104,U1105",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,BTS4175,
+56u,2,"C17,C1001",Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,EEH-AZF1H560B,
+PESD1CAN-UX,1,"D1,D2",Package_TO_SOT_SMD:SOT-323_SC-70,PESD1CAN-UX,
+Polyfuse,2,"F101,F102",Resistor_SMD:R_1206_3216Metric,1206L012WR,
+Micro_SD_Card,1,J1,Connector_Card:microSD_HC_Wuerth_693072010801,47219-2001,
+Conn_01x23,1,J101,ampseal:ampseal-23,776228-1,
+Conn_01x35,1,J102,ampseal:ampseal-35,776231-1,
+Conn_01x35,1,J103,ampseal:ampseal-35-2,776231-2,
+Conn_02x05_Odd_Even,1,J1502,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD,FTSH-105-01-F-DV-007-K,"Optional, debugging only"
+USB_B,2,"J1503,J1501",Connector_USB:USB_B_TE_5787834_Vertical,5787834-1,"This and J1504 are optional, install one of the three"
+USB_B,1,J1504,conn_5_2.5mm:conn_5_2.5mm,UB-20PMFP-LC7002,
+AudioJack3,1,J3,Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal,SJ1-3533NG,
+TLS115,2,"U1004,U1005",Package_SO:Infineon_PG-DSO-8-43,TLS115D0E,
+MAX9924,2,"U1203,U1204",Package_SO:MSOP-10_3x3mm_P0.5mm,MAX9924UAUB+T,
+VNLD5160,8,"U201,U202,U301,U302,U401,U402,U501,U502",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,VNLD5160TR-E,
