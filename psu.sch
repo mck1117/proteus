@@ -530,26 +530,6 @@ Wire Notes Line
 	8200 650  3275 650 
 Text Notes 3850 800  0    50   ~ 0
 Input Filter & 5v Regulator
-Text HLabel 2700 2550 2    50   Output ~ 0
-5V_SENSOR_2
-$Comp
-L Device:R R1005
-U 1 1 5DA40682
-P 2600 2750
-F 0 "R1005" H 2670 2796 50  0000 L CNN
-F 1 "DNP" H 2670 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 2750 50  0001 C CNN
-F 3 "~" H 2600 2750 50  0001 C CNN
-F 4 "DNP" H 2600 2750 50  0001 C CNN "LCSC"
-	1    2600 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 2550 2600 2550
-Wire Wire Line
-	2600 2550 2600 2600
-Wire Wire Line
-	2600 2900 2600 2975
 $Comp
 L Device:CP C1001
 U 1 1 5DB0F6E7
