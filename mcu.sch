@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 19
+Sheet 13 18
 Title "rusEfi Proteus"
 Date "2020-11-29"
 Rev "v0.5"
@@ -585,8 +585,6 @@ F 5 "0" H 11975 3700 50  0001 C CNN "LCSC_ext"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12775 3475 12325 3475
-Wire Wire Line
 	11525 3475 11525 3550
 Wire Wire Line
 	11975 3550 11975 3475
@@ -767,7 +765,7 @@ F 1 "STM32F429ZGTx" H 5300 6450 50  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4300 2875 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 5300 6275 50  0001 C CNN
 F 4 "STM32F767ZIT6" H 5300 6275 50  0001 C CNN "PN"
-F 5 "C46525" H 5300 6275 50  0001 C CNN "LCSC"
+F 5 "C91685" H 5300 6275 50  0001 C CNN "LCSC"
 	1    5300 6275
 	1    0    0    -1  
 $EndComp
@@ -1153,34 +1151,6 @@ IGN12
 NoConn ~ 6500 3975
 Text HLabel 6500 5075 2    50   Output ~ 0
 LS8
-$Comp
-L Connector_Generic:Conn_01x05 J1503
-U 1 1 5DD89B9D
-P 12975 3275
-F 0 "J1503" H 13055 3317 50  0000 L CNN
-F 1 "USB_B" H 12850 2975 50  0000 L CNN
-F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 12975 3275 50  0001 C CNN
-F 3 "~" H 12975 3275 50  0001 C CNN
-F 4 "5787834-1" H 12975 3275 50  0001 C CNN "PN"
-F 5 "N/A" H 12975 3275 50  0001 C CNN "LCSC"
-	1    12975 3275
-	1    0    0    -1  
-$EndComp
-Text Label 12775 3275 2    50   ~ 0
-USB_D+
-$Comp
-L power:GND #PWR0211
-U 1 1 5DD8ED16
-P 12775 3375
-F 0 "#PWR0211" H 12775 3125 50  0001 C CNN
-F 1 "GND" H 12780 3202 50  0000 C CNN
-F 2 "" H 12775 3375 50  0001 C CNN
-F 3 "" H 12775 3375 50  0001 C CNN
-	1    12775 3375
-	0    1    1    0   
-$EndComp
-Text Label 12775 3175 2    50   ~ 0
-USB_D-
 NoConn ~ 4100 6175
 NoConn ~ 4100 6375
 NoConn ~ 4100 6475
@@ -1330,8 +1300,6 @@ F 6 "0" H 10875 3075 50  0001 C CNN "LCSC_ext"
 	1    10875 3075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12775 3075 12400 3075
 Text HLabel 6850 4075 2    50   BiDi ~ 0
 USB_D-
 Text HLabel 6850 4175 2    50   BiDi ~ 0
@@ -1640,7 +1608,6 @@ Wire Wire Line
 	12775 3825 12400 3825
 Wire Wire Line
 	12400 3825 12400 3075
-Connection ~ 12400 3075
 Wire Wire Line
 	12400 3075 11100 3075
 $Comp
@@ -1658,7 +1625,6 @@ Wire Wire Line
 	12325 4225 12325 3475
 Wire Wire Line
 	12325 4225 12775 4225
-Connection ~ 12325 3475
 Wire Wire Line
 	12325 3475 12125 3475
 $Comp
@@ -1932,8 +1898,6 @@ F 5 "N/A" H 12975 4725 50  0001 C CNN "LCSC"
 	1    12975 4725
 	1    0    0    -1  
 $EndComp
-Text Notes 12500 3000 0    50   ~ 0
-Component side
 Text Notes 12575 3725 0    50   ~ 0
 Pin header
 Text Notes 12500 4450 0    50   ~ 0

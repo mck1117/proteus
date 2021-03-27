@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 19
+Sheet 1 18
 Title "rusEfi Proteus"
 Date "2020-11-29"
 Rev "v0.5"
@@ -206,18 +206,6 @@ Wire Wire Line
 Wire Wire Line
 	2325 2975 2700 2975
 $Sheet
-S 4875 3200 1000 475 
-U 5DD457F9
-F0 "etb1" 50
-F1 "etb.sch" 50
-F2 "12V_SUPPLY" I L 4875 3275 50 
-F3 "OUT+" O R 5875 3275 50 
-F4 "OUT-" O R 5875 3600 50 
-F5 "DIS" I L 4875 3450 50 
-F6 "DIR" I L 4875 3525 50 
-F7 "PWM" I L 4875 3600 50 
-$EndSheet
-$Sheet
 S 4875 4600 550  525 
 U 5DD5B2E0
 F0 "highside_quad" 50
@@ -261,28 +249,8 @@ Text Label 775  6450 0    50   ~ 0
 5V_SENSOR_1
 Wire Wire Line
 	775  6450 1350 6450
-Text Label 4550 3275 0    50   ~ 0
-12V_MR
-Wire Wire Line
-	4550 3275 4875 3275
 Wire Wire Line
 	4500 3450 4875 3450
-$Sheet
-S 4875 3900 1000 475 
-U 5DDC2003
-F0 "etb2" 50
-F1 "etb.sch" 50
-F2 "12V_SUPPLY" I L 4875 3975 50 
-F3 "OUT+" O R 5875 3975 50 
-F4 "OUT-" O R 5875 4300 50 
-F5 "DIS" I L 4875 4150 50 
-F6 "DIR" I L 4875 4225 50 
-F7 "PWM" I L 4875 4300 50 
-$EndSheet
-Text Label 4550 3975 0    50   ~ 0
-12V_MR
-Wire Wire Line
-	4550 3975 4875 3975
 Wire Wire Line
 	4500 4150 4875 4150
 Wire Wire Line
@@ -317,22 +285,6 @@ Text Label 225  3875 0    50   ~ 0
 12V_RAW
 Wire Wire Line
 	225  3875 650  3875
-Text Label 6150 3275 2    50   ~ 0
-ETB1+
-Text Label 6150 3600 2    50   ~ 0
-ETB1-
-Text Label 6150 3975 2    50   ~ 0
-ETB2+
-Text Label 6150 4300 2    50   ~ 0
-ETB2-
-Wire Wire Line
-	6150 4300 5875 4300
-Wire Wire Line
-	5875 3975 6150 3975
-Wire Wire Line
-	6150 3600 5875 3600
-Wire Wire Line
-	5875 3275 6150 3275
 Wire Wire Line
 	1875 5075 2700 5075
 Wire Wire Line
@@ -1258,4 +1210,41 @@ Wire Wire Line
 	10350 2175 10350 2200
 Wire Wire Line
 	10350 2200 10400 2200
+Wire Wire Line
+	4550 3275 4875 3275
+Text Label 4550 3275 0    50   ~ 0
+12V_MR
+Wire Wire Line
+	5875 3275 6150 3275
+Wire Wire Line
+	6150 3600 5875 3600
+Wire Wire Line
+	5875 3975 6150 3975
+Wire Wire Line
+	6150 4300 5875 4300
+Text Label 6150 4300 2    50   ~ 0
+ETB2-
+Text Label 6150 3975 2    50   ~ 0
+ETB2+
+Text Label 6150 3600 2    50   ~ 0
+ETB1-
+Text Label 6150 3275 2    50   ~ 0
+ETB1+
+$Sheet
+S 4875 3200 1000 1175
+U 5DD457F9
+F0 "etb1" 50
+F1 "etb.sch" 50
+F2 "12V_SUPPLY" I L 4875 3275 50 
+F3 "OUT1+" O R 5875 3275 50 
+F4 "OUT2-" O R 5875 4300 50 
+F5 "DIS1" I L 4875 3450 50 
+F6 "DIR1" I L 4875 3525 50 
+F7 "PWM1" I L 4875 3600 50 
+F8 "DIS2" I L 4875 4150 50 
+F9 "DIR2" I L 4875 4225 50 
+F10 "PWM2" I L 4875 4300 50 
+F11 "OUT2+" O R 5875 3975 50 
+F12 "OUT1-" O R 5875 3600 50 
+$EndSheet
 $EndSCHEMATC
