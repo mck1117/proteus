@@ -4,7 +4,7 @@ _protean: able to do many different things; versatile._
 
 A high-featured board compatible with [rusEfi](https://github.com/rusefi/rusefi) firmware.
 
-TL;DR [Proteus Board Pinout](readme_pinout.md)
+TL;DR [Proteus Manual](https://github.com/rusefi/rusefi/wiki/Proteus-Manual)
 
 # Goals and Non-Goals
 
