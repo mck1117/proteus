@@ -2,7 +2,7 @@
 
 _protean: able to do many different things; versatile._
 
-A high-featured board compatible with [rusEfi](https://github.com/rusefi/rusefi) firmware.
+A high-featured board compatible with [rusEFI](https://github.com/rusefi/rusefi) firmware.
 
 TL;DR [Proteus Manual](https://github.com/rusefi/rusefi/wiki/Proteus-Manual)
 
@@ -31,7 +31,7 @@ TL;DR [Proteus Manual](https://github.com/rusefi/rusefi/wiki/Proteus-Manual)
     - 256 KB SRAM
     - LQFP144 package
 
-- Also fully compatible with several STM32F7 parts, including the STM32F767ZI, used on v0.1 and v0.2.
+- Also fully compatible with several STM32F7 parts, including the STM32F767ZI, used on v0.1 and v0.2, as well as STM32F429ZIT6.
 
 ## Connectors
 TE Connectivity AMPSEAL connectors:
