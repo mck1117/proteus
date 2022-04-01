@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 18
+Sheet 13 19
 Title "rusEfi Proteus"
 Date "2020-11-29"
 Rev "v0.5"
@@ -135,9 +135,6 @@ Wire Wire Line
 Connection ~ 4800 2550
 Wire Wire Line
 	4800 2550 4900 2550
-Connection ~ 4700 2550
-Wire Wire Line
-	4700 2550 4800 2550
 $Comp
 L Device:Ferrite_Bead FB1501
 U 1 1 5DC2E3F7
@@ -211,8 +208,6 @@ Wire Wire Line
 Connection ~ 6800 1975
 Connection ~ 6325 1975
 Connection ~ 5100 2550
-Wire Wire Line
-	4525 2550 4700 2550
 $Comp
 L Device:C C1504
 U 1 1 5DC44739
@@ -909,8 +904,6 @@ Wire Wire Line
 	4900 2550 4900 2675
 Wire Wire Line
 	4800 2550 4800 2675
-Wire Wire Line
-	4700 2550 4700 2675
 Wire Wire Line
 	5400 2550 5500 2550
 $Comp
@@ -2382,4 +2375,77 @@ F 7 "1" H 11100 4375 50  0001 C CNN "possible_not_ext"
 	1    11100 4375
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 624AEAA1
+P 4875 2175
+F 0 "D?" H 5000 2250 50  0000 R CNN
+F 1 "schottky" H 5025 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4875 2175 50  0001 C CNN
+F 3 "~" V 4875 2175 50  0001 C CNN
+F 4 "" H 4875 2175 50  0001 C CNN "PN"
+F 5 "C8598" H 4875 2175 50  0001 C CNN "LCSC"
+F 6 "0" H 4875 2175 50  0001 C CNN "LCSC_ext"
+	1    4875 2175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4525 2550 4800 2550
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 624B9EE8
+P 4575 2175
+F 0 "D?" H 4700 2250 50  0000 R CNN
+F 1 "schottky" H 4725 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4575 2175 50  0001 C CNN
+F 3 "~" V 4575 2175 50  0001 C CNN
+F 4 "" H 4575 2175 50  0001 C CNN "PN"
+F 5 "C8598" H 4575 2175 50  0001 C CNN "LCSC"
+F 6 "0" H 4575 2175 50  0001 C CNN "LCSC_ext"
+	1    4575 2175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2550 5200 2000
+Wire Wire Line
+	5200 2000 4875 2000
+Wire Wire Line
+	4875 2000 4875 2075
+Wire Wire Line
+	4875 2275 4875 2400
+Wire Wire Line
+	4875 2400 4700 2400
+Wire Wire Line
+	4575 2400 4575 2275
+Wire Wire Line
+	4700 2400 4700 2675
+Connection ~ 4700 2400
+Wire Wire Line
+	4700 2400 4575 2400
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 624D42A0
+P 4200 1950
+F 0 "BT?" V 3945 2000 50  0000 C CNN
+F 1 "Battery_Cell" V 4036 2000 50  0000 C CNN
+F 2 "" V 4200 2010 50  0001 C CNN
+F 3 "~" V 4200 2010 50  0001 C CNN
+	1    4200 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624D5590
+P 4100 1950
+F 0 "#PWR?" H 4100 1700 50  0001 C CNN
+F 1 "GND" H 4105 1777 50  0001 C CNN
+F 2 "" H 4100 1950 50  0001 C CNN
+F 3 "" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1950 4575 1950
+Wire Wire Line
+	4575 1950 4575 2075
 $EndSCHEMATC
