@@ -7,3 +7,13 @@
 ## Proteus 0.6
  - Switch to TLE9202 ETB driver due to shortage of TLE9201
  - Switch to STM32F767ZG due to shortage of STM32F42x
+
+## Proteus 0.4
+ - knock sense with headset jack
+ - SD card
+
+## Proteus 0.3
+ - first large batch
+
+## Proteus 0.1
+ - it's alive!!!
