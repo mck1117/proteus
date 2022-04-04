@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
+Sheet 19 19
 Title "rusEfi Proteus"
 Date "2020-01-17"
 Rev "v0.2"
