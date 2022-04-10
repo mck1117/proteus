@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 13 19
 Title "rusEfi Proteus"
-Date "2020-11-29"
+Date "2022-04-09"
 Rev "v0.7"
 Comp "rusEFI"
 Comment1 "github.com/mck1117/proteus"
