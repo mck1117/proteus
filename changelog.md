@@ -11,6 +11,7 @@
 ## Proteus 0.4
  - knock sense with headset jack
  - SD card
+ - USB removed from 23 pin connector
 
 ## Proteus 0.3
  - first large batch
