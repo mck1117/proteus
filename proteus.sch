@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 19
 Title "rusEfi Proteus"
 Date "2020-11-29"
-Rev "v0.5"
+Rev "v0.7"
 Comp "rusEFI"
 Comment1 "github.com/mck1117/proteus"
 Comment2 "rusefi.com/s/proteus"
