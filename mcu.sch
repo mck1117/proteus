@@ -550,10 +550,6 @@ Wire Notes Line
 	7650 1500 9025 1500
 Wire Notes Line
 	9025 2675 7650 2675
-Text HLabel 6500 7875 2    50   Input ~ 0
-5V_SENSOR_1_PG
-Text HLabel 6500 7775 2    50   Input ~ 0
-5V_SENSOR_2_PG
 $Comp
 L Device:C C1516
 U 1 1 5DD061A9
@@ -2393,7 +2389,7 @@ U 1 1 624D42A0
 P 3925 1950
 F 0 "BT1" V 3670 2000 50  0000 C CNN
 F 1 "Battery_Cell" V 3761 2000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 3925 2010 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 3925 2010 50  0001 C CNN
 F 3 "~" V 3925 2010 50  0001 C CNN
 	1    3925 1950
 	0    1    1    0   
@@ -2454,4 +2450,8 @@ F 3 "~" H 4300 2400 50  0001 C CNN
 	1    4300 2400
 	0    -1   -1   0   
 $EndComp
+Text HLabel 6500 7875 2    50   Input ~ 0
+5V_SENSOR_1_PG
+Text HLabel 6500 7775 2    50   Input ~ 0
+5V_SENSOR_2_PG
 $EndSCHEMATC
