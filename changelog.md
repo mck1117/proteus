@@ -1,6 +1,6 @@
 # Changelog
 
-## Proteus vNext
+## Proteus 0.7
  - Reduce BOM lines somewhat, replacing similar components with identical components.
  - Add RTC/backup battery
 
