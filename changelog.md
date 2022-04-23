@@ -15,6 +15,10 @@
 
 ## Proteus 0.3
  - first large batch
+ - incompatible pinout change mostly on the 23 pin plug
+
+## Proteus 0.2
+ - USB footprint fix
 
 ## Proteus 0.1
  - it's alive!!!
