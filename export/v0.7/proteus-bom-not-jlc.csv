@@ -11,4 +11,5 @@ Conn_01x35,1,J103,ampseal:ampseal-35-2,776231-2,
 Conn_02x05_Odd_Even,1,J1502,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD,FTSH-105-01-F-DV-007-K,"Optional, debugging only"
 USB_B,2,"J1503,J1501",Connector_USB:USB_B_TE_5787834_Vertical,5787834-1,"This and J1504 are optional, install one of the three"
 USB_B,1,J1504,conn_5_2.5mm:conn_5_2.5mm,UB-20PMFP-LC7002,
+USB_B_CAP,1,NA,xx,CAP-WADMLPC2
 AudioJack3,1,J3,Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal,SJ1-3533NG,
