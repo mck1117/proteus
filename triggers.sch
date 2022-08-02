@@ -1569,4 +1569,6 @@ Wire Wire Line
 Connection ~ 4050 5825
 Wire Wire Line
 	4050 5825 4050 4275
+Text Notes 4225 3950 0    50   ~ 0
+Crazy pin routing is to make PCB layout simpler
 $EndSCHEMATC
