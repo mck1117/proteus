@@ -59,7 +59,7 @@ TE Connectivity AMPSEAL connectors:
 
 ## Inputs
 
-- 12x Analog voltage inputs
+- 11x Analog voltage inputs
 - 4x Analog temperature (5v pullup) inputs
 - 2x VR crank/cam/vehicle speed inputs
 - 6x hall cam/crank or digital input
