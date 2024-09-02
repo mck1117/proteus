@@ -13,7 +13,7 @@ TL;DR [Proteus Manual](https://github.com/rusefi/rusefi/wiki/Proteus-Manual)
 - Run my LS-swapped Volvo 240 with factory harness and equipment
 - Run a sequential ignition, quad-VVT v12 engine (twelve injectors, twelve ignition, five hall sensors, four VVT actuators, dual throttles)
 - Easily manufactured sealed enclosure (all connectors mount in-plane)
-- Extensible for knock sensing
+- ~~Extensible for knock sensing~~ properly implemented onboard knock sensing!
 
 ## Non-goals
 
@@ -70,7 +70,3 @@ TE Connectivity AMPSEAL connectors:
 - Limited operation from 4-6v
 - Dual 5v sensor supplies, 150mA each, fully protected
 - Dual protected 12v external sensor supply
-
-## Extensibility
-
-- 10-pin internal header for knock expansion board.  We aren't confident in any one knock sensing design yet, so it's most useful to be able to swap it out without replacing the whole ECU.
